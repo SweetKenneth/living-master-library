@@ -1,0 +1,79 @@
+{
+  "name": "livingguide",
+  "version": "1.0.2",
+  "description": "LivingGuide: a self-auditing canonical project intelligence system that keeps an owner's manual, architecture dossier, roadmap, continuity file, and evidence-backed project truth current as the project changes.",
+  "keywords": [
+    "ai",
+    "architecture",
+    "documentation",
+    "knowledge-management",
+    "project-intelligence",
+    "continuity",
+    "owner-manual",
+    "technical-dossier",
+    "typescript",
+    "zero-dependency"
+  ],
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/modules/livingguide#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "modules/livingguide"
+  },
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "type": "module",
+  "bin": {
+    "livingguide": "dist/cli/main.js"
+  },
+  "main": "dist/engine/index.js",
+  "types": "dist/engine/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/engine/index.d.ts",
+      "default": "./dist/engine/index.js"
+    },
+    "./adapters/*": {
+      "types": "./dist/adapters/*.d.ts",
+      "default": "./dist/adapters/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "core",
+    "engine",
+    "adapters",
+    "cli",
+    "presets",
+    "schema.sql",
+    "livingguide.config.json",
+    "install",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "FOUNDERS-GUIDE.md",
+    "INSTALL-QUESTIONS.md"
+  ],
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "setup": "node install/wizard.mjs",
+    "init": "node --experimental-strip-types cli/main.ts init",
+    "scan": "node --experimental-strip-types cli/main.ts scan",
+    "build:guide": "node --experimental-strip-types cli/main.ts build",
+    "audit": "node --experimental-strip-types cli/main.ts audit",
+    "resurrection": "node --experimental-strip-types cli/main.ts resurrection",
+    "test": "node --experimental-strip-types test/selftest.ts",
+    "typecheck": "npx -y -p typescript@5.9 tsc -p tsconfig.json",
+    "build": "npx -y -p typescript@5.9 tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

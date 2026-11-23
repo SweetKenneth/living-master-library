@@ -1,0 +1,78 @@
+{
+  "name": "livingchangelog",
+  "version": "1.2.0",
+  "description": "LivingChangelog: an autonomous changelog publisher that watches release evidence, publishes only meaningful verified changes, corrects history in public, and keeps tamper-evident receipts.",
+  "keywords": [
+    "ai",
+    "autonomous",
+    "bluesky",
+    "changelog",
+    "cloudflare-workers",
+    "github",
+    "mastodon",
+    "postgrest",
+    "release-announcements",
+    "release-notes",
+    "supabase",
+    "typescript",
+    "zero-dependency"
+  ],
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/modules/livingchangelog#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "modules/livingchangelog"
+  },
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "type": "module",
+  "bin": {
+    "livingchangelog": "dist/cli/main.js"
+  },
+  "main": "dist/engine/index.js",
+  "types": "dist/engine/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/engine/index.d.ts",
+      "default": "./dist/engine/index.js"
+    },
+    "./adapters/*": {
+      "types": "./dist/adapters/*.d.ts",
+      "default": "./dist/adapters/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "core",
+    "engine",
+    "adapters",
+    "cli",
+    "schema.sql",
+    "livingchangelog.config.json",
+    "install",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "FOUNDERS-GUIDE.md",
+    "INSTALL-QUESTIONS.md"
+  ],
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "setup": "node install/wizard.mjs",
+    "preview": "node --experimental-strip-types cli/main.ts preview",
+    "test": "node --experimental-strip-types test/selftest.ts",
+    "test:db": "node --experimental-strip-types test/integration.postgrest.ts",
+    "typecheck": "npx -y -p typescript@5.9 tsc -p tsconfig.json",
+    "build": "npx -y -p typescript@5.9 tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

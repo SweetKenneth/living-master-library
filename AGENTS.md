@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Root `library/` holds the Living Master Library source; `src/` is only the website. Why: one repo ships both the tool and its download page.
+- Release archives live in `public/downloads/` and must be rebuilt from `library/` when it changes. Why: the website serves them directly.

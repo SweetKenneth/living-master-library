@@ -1,0 +1,46 @@
+{
+  "site": {
+    "name": "[ENTER PRODUCT OR COMPANY NAME HERE]",
+    "url": "https://[ENTER-DOMAIN-HERE]",
+    "changelogName": "[ENTER CHANGELOG NAME HERE]",
+    "changelogPath": "/changelog",
+    "tagline": "[ENTER ONE-LINE CHANGELOG TAGLINE HERE]"
+  },
+  "audience": "[ENTER WHO READS RELEASE NOTES — e.g. customers, developers, or both]",
+  "voice": "Plain, factual, compact. Lead with user impact. No hype, no emoji, no marketing adjectives. Never turn an internal implementation detail into a customer benefit unless the evidence proves that benefit.",
+  "productFacts": "[ENTER CURRENT PRODUCT FACTS HERE]\n- What the product does today.\n- Plans/tiers/platforms that exist today.\n- Names of real features and surfaces.",
+  "neverClaim": [
+    "A code change is live merely because it was committed or merged",
+    "A feature, fix, metric, customer, benchmark or rollout state not supported by evidence or product facts"
+  ],
+  "retiredWords": [
+    { "pattern": "\\brevolutionary\\b", "replaceWith": "state what changed" },
+    { "pattern": "\\bseamless(ly)?\\b", "replaceWith": "state what the user experiences" },
+    { "pattern": "\\bgame[- ]changer\\b", "replaceWith": "state what changed" },
+    { "pattern": "\\bcutting[- ]edge\\b", "replaceWith": "state what changed" }
+  ],
+  "siteLinks": [{ "path": "/", "label": "Home", "note": "product home" }],
+  "categories": ["added", "improved", "fixed", "changed", "removed", "security", "developer"],
+  "sourcePolicy": {
+    "shippingPolicy": "explicit-only",
+    "productionBranch": "main",
+    "productionEnvironments": ["production", "prod", "live"],
+    "bootstrapLookbackDays": 7,
+    "maxPendingEvidence": 100,
+    "maxEvidencePerEntry": 16,
+    "staleEvidenceDays": 30,
+    "ignoredLabels": ["chore", "dependencies", "dependabot", "internal-only", "no-changelog"],
+    "ignoredTitlePatterns": ["^chore(?:\\(|:)", "^deps(?:\\(|:)", "^merge branch", "^bump .* from .* to .*"],
+    "publishDeveloperOnly": false,
+    "publishableKinds": ["release", "deployment", "pull_request", "commit", "manual"]
+  },
+  "wordTargets": {
+    "update": { "min": 20, "max": 240 },
+    "release": { "min": 40, "max": 500 }
+  },
+  "qualityFloor": { "reader": 70, "skeptic": 85, "fitness": 0.75 },
+  "cadence": { "minHoursBetweenEntries": 4, "auditCooldownHours": 72, "auditEveryNthTick": 4 },
+  "breaker": { "maxConsecutiveFailures": 3, "cooldownMinutes": 360, "heartbeatStaleHours": 48 },
+  "defense": { "publicReadsPerMinute": 180, "adminCallsPerMinute": 20 },
+  "seed": "livingchangelog"
+}

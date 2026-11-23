@@ -1,0 +1,63 @@
+{
+  "name": "living-master-library",
+  "version": "1.3.2",
+  "description": "One install for LivingPress, LivingChangelog, LivingGuide, LivingDocs, LivingRoadmap, Collective Master Library, and livingcore.",
+  "type": "module",
+  "bin": {
+    "living": "cli/main.mjs",
+    "living-master-library": "cli/main.mjs"
+  },
+  "scripts": {
+    "test": "node test/library.test.mjs",
+    "test:all": "node cli/main.mjs test all",
+    "doctor": "node cli/main.mjs doctor",
+    "audit": "node cli/main.mjs audit",
+    "prepublishOnly": "npm test && node cli/main.mjs test all",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "files": [
+    "cli",
+    "lib",
+    "scripts",
+    "test",
+    "core",
+    "modules",
+    "library.catalog.json",
+    "README.md",
+    "FOUNDERS-GUIDE.md",
+    "INSTALL-QUESTIONS.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "collective-master-library",
+    "collective-archive",
+    "!**/*.tgz"
+  ],
+  "keywords": [
+    "livingpress",
+    "documentation",
+    "changelog",
+    "knowledge",
+    "provenance",
+    "autonomous",
+    "publishing",
+    "roadmap",
+    "planning",
+    "drift",
+    "collective",
+    "archive",
+    "founders-guide"
+  ],
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git"
+  },
+  "homepage": "https://github.com/SweetKenneth/living#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  }
+}

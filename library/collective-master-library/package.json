@@ -1,0 +1,42 @@
+{
+  "name": "collective-master-library",
+  "version": "1.1.1",
+  "description": "Lossless, provenance-preserving Founder\u2019s Guide aggregation for multi-project ecosystems.",
+  "type": "module",
+  "bin": {
+    "coml": "cli/main.mjs",
+    "collective-master-library": "cli/main.mjs"
+  },
+  "scripts": {
+    "test": "node test/collective.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "files": [
+    "cli",
+    "lib",
+    "README.md",
+    "FOUNDERS-GUIDE.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "founders-guide",
+    "archive",
+    "provenance",
+    "documentation",
+    "knowledge",
+    "continuity"
+  ],
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "collective-master-library"
+  },
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/collective-master-library#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  }
+}

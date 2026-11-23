@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": []
+  },
+  "include": [
+    "engine/**/*.ts",
+    "adapters/**/*.ts",
+    "cli/**/*.ts",
+    "test/**/*.ts",
+    "examples/**/*.ts",
+    "core/**/*.ts",
+    "presets/**/*.ts",
+    "node-shims.d.ts"
+  ]
+}

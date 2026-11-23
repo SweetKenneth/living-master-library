@@ -1,0 +1,73 @@
+{
+  "name": "livingroadmap",
+  "version": "1.0.0",
+  "description": "LivingRoadmap: an evidence-aware roadmap that reconciles plans against implementation and shipping reality without silently inventing completion.",
+  "keywords": [
+    "roadmap",
+    "planning",
+    "provenance",
+    "project-management",
+    "evidence",
+    "drift",
+    "typescript",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "type": "module",
+  "bin": {
+    "livingroadmap": "dist/cli/main.js"
+  },
+  "main": "dist/engine/index.js",
+  "types": "dist/engine/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/engine/index.d.ts",
+      "default": "./dist/engine/index.js"
+    },
+    "./adapters/*": {
+      "types": "./dist/adapters/*.d.ts",
+      "default": "./dist/adapters/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "core",
+    "engine",
+    "adapters",
+    "cli",
+    "schema.sql",
+    "livingroadmap.config.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "FOUNDERS-GUIDE.md",
+    "INSTALL-QUESTIONS.md"
+  ],
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "init": "node --experimental-strip-types cli/main.ts init",
+    "scan": "node --experimental-strip-types cli/main.ts scan",
+    "reconcile": "node --experimental-strip-types cli/main.ts reconcile",
+    "build:roadmap": "node --experimental-strip-types cli/main.ts build",
+    "audit": "node --experimental-strip-types cli/main.ts audit",
+    "test": "node --experimental-strip-types test/selftest.ts",
+    "typecheck": "npx -y -p typescript@5.9 tsc -p tsconfig.json",
+    "build": "npx -y -p typescript@5.9 tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "modules/livingroadmap"
+  },
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/modules/livingroadmap#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  }
+}

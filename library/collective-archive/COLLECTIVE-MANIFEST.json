@@ -1,0 +1,121 @@
+{
+  "format": "collective-master-library/v1",
+  "name": "Collective Master Library",
+  "version": "1.1.1",
+  "generated_at": "2026-10-03T14:12:20.385Z",
+  "source_library": {
+    "name": "Living Master Library",
+    "version": "1.3.2"
+  },
+  "policy": {
+    "lossless_sources": true,
+    "aggregation_upgrades_certainty": false
+  },
+  "guides": [
+    {
+      "id": "living-master-library",
+      "kind": "library",
+      "name": "Living Master Library",
+      "version": "1.3.2",
+      "source_path": "FOUNDERS-GUIDE.md",
+      "sha256": "82e8a33cd4b46ca29ccb2c16944ab6b4a8da89c2e94cc674da82a895955c4df9",
+      "bytes": 29109,
+      "words": 3793,
+      "title": "Living Master Library — Founder’s Guide",
+      "snapshot": "sources/living-master-library-82e8a33cd4b4.md"
+    },
+    {
+      "id": "press",
+      "kind": "module",
+      "name": "LivingPress",
+      "version": "1.2.0",
+      "source_path": "modules/livingpress/FOUNDERS-GUIDE.md",
+      "sha256": "2f6db256a66dc90151917e57e9689c3252ffc14933a5e273e6735d534df10481",
+      "bytes": 5419,
+      "words": 981,
+      "title": "LivingPress — Founder's Guide",
+      "tagline": "Published thought that stays alive.",
+      "snapshot": "sources/press-2f6db256a66d.md"
+    },
+    {
+      "id": "changelog",
+      "kind": "module",
+      "name": "LivingChangelog",
+      "version": "1.2.0",
+      "source_path": "modules/livingchangelog/FOUNDERS-GUIDE.md",
+      "sha256": "3c03111a140e12338861291f9cdf8d0a44829d6547a05e575f5db4455b86b4a3",
+      "bytes": 16835,
+      "words": 2469,
+      "title": "LivingChangelog: Founder's Guide",
+      "tagline": "Release notes that only claim what actually shipped.",
+      "snapshot": "sources/changelog-3c03111a140e.md"
+    },
+    {
+      "id": "guide",
+      "kind": "module",
+      "name": "LivingGuide",
+      "version": "1.0.2",
+      "source_path": "modules/livingguide/FOUNDERS-GUIDE.md",
+      "sha256": "7f9e7e43b7eb52cac0f2e8caad0f2ca4c6340e9c6082210df68a96b9718c8b19",
+      "bytes": 15237,
+      "words": 2114,
+      "title": "LivingGuide — Founder's Guide",
+      "tagline": "Your project remembers itself.",
+      "snapshot": "sources/guide-7f9e7e43b7eb.md"
+    },
+    {
+      "id": "docs",
+      "kind": "module",
+      "name": "LivingDocs",
+      "version": "1.0.2",
+      "source_path": "modules/livingdocs/FOUNDERS-GUIDE.md",
+      "sha256": "53782f7a6c85c9e873843e8dfdd20c10bdda737e68256ef3d94e8f2a3a9b63ff",
+      "bytes": 61398,
+      "words": 7473,
+      "title": "LivingDocs — Canonical Founder’s Guide",
+      "tagline": "Documentation that stays true.",
+      "snapshot": "sources/docs-53782f7a6c85.md"
+    },
+    {
+      "id": "roadmap",
+      "kind": "module",
+      "name": "LivingRoadmap",
+      "version": "1.0.0",
+      "source_path": "modules/livingroadmap/FOUNDERS-GUIDE.md",
+      "sha256": "b314fcd6b32ce04f6c204e252364d4fa3e16425fc732897f8b97f4570ae7ca90",
+      "bytes": 11541,
+      "words": 1429,
+      "title": "LivingRoadmap — Founder’s Guide",
+      "tagline": "Plans that know when reality changed.",
+      "snapshot": "sources/roadmap-b314fcd6b32c.md"
+    },
+    {
+      "id": "collective",
+      "kind": "archive",
+      "name": "Collective Master Library",
+      "version": "1.1.1",
+      "source_path": "collective-master-library/FOUNDERS-GUIDE.md",
+      "sha256": "7b5c978cf6d241a02f7bdbe4060bdf00ee26504f22949126e6ca8788d1dbdbdc",
+      "bytes": 3084,
+      "words": 379,
+      "title": "Collective Master Library — Founder’s Guide",
+      "tagline": "The ecosystem remembers itself.",
+      "snapshot": "sources/collective-7b5c978cf6d2.md"
+    }
+  ],
+  "consistency": {
+    "ok": true,
+    "claims_checked": 41,
+    "findings": []
+  },
+  "archive": {
+    "markdown": {
+      "path": "COLLECTIVE-MASTER-LIBRARY.md",
+      "sha256": "5e82b71618bb65735a1274ab4b58d20b5d763b61d7f396f54120b060c9afd76b"
+    },
+    "html": {
+      "path": "COLLECTIVE-MASTER-LIBRARY.html",
+      "sha256": "6a9885e49478e5a20e0b3cdf36dac4be5d4826c7661cf04f3fbb2f26ef99b20d"
+    }
+  }
+}

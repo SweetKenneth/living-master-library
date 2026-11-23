@@ -1,0 +1,6 @@
+declare module "node:fs/promises" { export function readFile(path:string,encoding?:string):Promise<any>; export function writeFile(path:string,data:any,encoding?:string):Promise<void>; export function rename(a:string,b:string):Promise<void>; export function mkdir(path:string,opts?:any):Promise<void>; export function readdir(path:string,opts?:any):Promise<any[]>; export function stat(path:string):Promise<any>; export function access(path:string):Promise<void>; export function copyFile(a:string,b:string):Promise<void>; export function rm(path:string,opts?:any):Promise<void>; export function mkdtemp(prefix:string):Promise<string>; }
+declare module "node:path" { export function resolve(...p:string[]):string; export function join(...p:string[]):string; export function relative(a:string,b:string):string; export function extname(p:string):string; export function basename(p:string):string; export function dirname(p:string):string; export const sep:string; }
+declare module "node:child_process" { export function spawnSync(cmd:string,args?:string[],opts?:any):any; }
+declare module "node:assert/strict" { const assert:any; export default assert; }
+declare module "node:os" { export function tmpdir():string; }
+declare var process:any;

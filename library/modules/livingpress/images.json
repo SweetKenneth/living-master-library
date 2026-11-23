@@ -1,0 +1,5 @@
+[
+  { "url": "https://[ENTER-DOMAIN-HERE]/blog-images/default-1.jpg", "alt": "[ENTER IMAGE DESCRIPTION]", "terms": ["[keyword]"] },
+  { "url": "https://[ENTER-DOMAIN-HERE]/blog-images/default-2.jpg", "alt": "[ENTER IMAGE DESCRIPTION]", "terms": ["[keyword]"] },
+  { "url": "https://[ENTER-DOMAIN-HERE]/blog-images/default-3.jpg", "alt": "[ENTER IMAGE DESCRIPTION]", "terms": ["[keyword]"] }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "livingpress",
+  "version": "1.2.0",
+  "description": "LivingPress: an autonomous blog engine that only posts when it has something to say, corrects its own old posts in public, and keeps a tamper-evident record of every decision.",
+  "keywords": [
+    "blog",
+    "autonomous",
+    "ai",
+    "content",
+    "editorial",
+    "typescript",
+    "zero-dependency",
+    "postgrest",
+    "supabase",
+    "cloudflare-workers"
+  ],
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/modules/livingpress#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "modules/livingpress"
+  },
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "setup": "node install/wizard.mjs",
+    "test": "node --experimental-strip-types test/selftest.ts",
+    "test:db": "node --experimental-strip-types test/integration.postgrest.ts",
+    "typecheck": "npx -y -p typescript@5 tsc -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

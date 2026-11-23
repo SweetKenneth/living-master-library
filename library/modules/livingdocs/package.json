@@ -1,0 +1,80 @@
+{
+  "name": "livingdocs",
+  "version": "1.0.2",
+  "description": "LivingDocs: evidence-backed documentation that detects drift, preserves uncertainty, and stays aligned with code, configuration, schemas, tests, APIs and CLI behavior.",
+  "keywords": [
+    "documentation",
+    "docs",
+    "developer-tools",
+    "ai",
+    "drift-detection",
+    "api-docs",
+    "cli-docs",
+    "typescript",
+    "zero-dependency"
+  ],
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/modules/livingdocs#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "modules/livingdocs"
+  },
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "type": "module",
+  "bin": {
+    "livingdocs": "dist/cli/main.js"
+  },
+  "main": "dist/engine/index.js",
+  "types": "dist/engine/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/engine/index.d.ts",
+      "default": "./dist/engine/index.js"
+    },
+    "./adapters/*": {
+      "types": "./dist/adapters/*.d.ts",
+      "default": "./dist/adapters/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "core",
+    "engine",
+    "adapters",
+    "cli",
+    "presets",
+    "schema.sql",
+    "livingdocs.config.json",
+    "install",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "LIVINGDOCS-GUIDE.md",
+    "INSTALL-QUESTIONS.md",
+    "FOUNDERS-GUIDE.md",
+    "FOUNDERS-GUIDE.html"
+  ],
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "setup": "node install/wizard.mjs",
+    "init": "node --experimental-strip-types cli/main.ts init",
+    "scan": "node --experimental-strip-types cli/main.ts scan",
+    "build:docs": "node --experimental-strip-types cli/main.ts build",
+    "audit": "node --experimental-strip-types cli/main.ts audit",
+    "verify": "node --experimental-strip-types cli/main.ts verify",
+    "test": "node --experimental-strip-types test/selftest.ts",
+    "typecheck": "npx -y -p typescript@5.9 tsc -p tsconfig.json",
+    "build": "npx -y -p typescript@5.9 tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

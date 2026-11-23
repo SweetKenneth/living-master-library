@@ -1,0 +1,1308 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Collective Master Library</title><style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#141414;background:#f5f5f2;line-height:1.6}*{box-sizing:border-box}body{margin:0}.wrap{max-width:1180px;margin:auto;padding:28px}.hero{background:#fff;border:1px solid #ddd;border-radius:22px;padding:38px;margin:18px 0 26px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:800;color:#666}h1{font-size:clamp(2.2rem,7vw,5rem);line-height:.95;margin:.2em 0}.lede{font-size:1.18rem;max-width:720px;color:#444}.grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px}.toc{position:sticky;top:16px;align-self:start;background:#fff;border:1px solid #ddd;border-radius:18px;padding:20px}.toc ol{padding-left:1.3rem}.toc a{color:#222;text-decoration:none}.source,.register{background:#fff;border:1px solid #ddd;border-radius:18px;padding:26px;margin-bottom:24px}.source{break-before:page}.source-head{display:flex;justify-content:space-between;gap:20px;align-items:start}.source-head h2{font-size:2rem;margin:.2rem 0;overflow-wrap:anywhere}.source-head small{font-size:.55em;color:#666}.meta{text-align:right;color:#555}.provenance{font-size:.85rem;color:#666;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:10px 0;margin:12px 0 18px;overflow-wrap:anywhere}.body h2{font-size:1.7rem;margin:1.6em 0 .4em}.body h3{font-size:1.35rem;margin:1.4em 0 .4em}.body h4,.body h5,.body h6{font-size:1.08rem;margin:1.2em 0 .3em}.body p,.body li{max-width:78ch}pre{background:#f3f3ef;border:1px solid #e6e6e0;border-radius:10px;padding:12px 14px;overflow-x:auto;line-height:1.35}code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em}pre code{font-size:.8rem}p code,li code,td code{background:#f0f0ec;padding:.08em .3em;border-radius:4px;overflow-wrap:anywhere}blockquote{margin:1em 0;padding:.2em 1em;border-left:4px solid #ccc;color:#444}.table{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:.92rem}th,td{border:1px solid #e3e3de;padding:6px 10px;text-align:left;vertical-align:top}th{background:#f6f6f2}hr{border:0;border-top:1px solid #e5e5e5;margin:1.8em 0}.hash{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.78rem;overflow-wrap:anywhere}td.hash{min-width:24ch}@media(max-width:780px){.wrap{padding:14px}.hero{padding:24px}.grid{grid-template-columns:minmax(0,1fr)}.source-head h2{font-size:1.6rem}.toc{position:static}.source,.register{padding:18px}.source-head{display:block}.meta{text-align:left;margin-top:8px}}@media print{:root{background:#fff}.wrap{max-width:none;padding:0}.hero,.toc,.source,.register{border:0;border-radius:0}.toc{page-break-after:always}.source,.register{padding:0}.grid{display:block}.body{font-size:10pt}pre{white-space:pre-wrap;font-size:8.5pt}.hero{padding:0 0 24px}h2,h3,h4{break-after:avoid}tr,pre,blockquote{break-inside:avoid}}
+</style></head><body><main class="wrap"><header class="hero"><span class="eyebrow">CANONICAL ECOSYSTEM ARCHIVE</span><h1>Collective<br>Master Library</h1><p class="lede">The ecosystem remembers itself. A lossless roll-up of 7 canonical Founder’s Guides from Living Master Library 1.3.2.</p><p><strong>Generated:</strong> 2026-10-03T14:12:20.385Z · <strong>Builder:</strong> Collective Master Library 1.1.1</p></header><div class="grid"><nav class="toc"><span class="eyebrow">CONTENTS</span><p><a href="#register">Source register</a></p><ol><li><a href="#source-1">Living Master Library v1.3.2</a></li><li><a href="#source-2">LivingPress v1.2.0</a></li><li><a href="#source-3">LivingChangelog v1.2.0</a></li><li><a href="#source-4">LivingGuide v1.0.2</a></li><li><a href="#source-5">LivingDocs v1.0.2</a></li><li><a href="#source-6">LivingRoadmap v1.0.0</a></li><li><a href="#source-7">Collective Master Library v1.1.1</a></li></ol><p><a href="#consistency">Consistency report</a></p></nav><article><section class="register" id="register"><span class="eyebrow">SOURCE REGISTER</span><div class="table"><table><thead><tr><th>#</th><th>Guide</th><th>Version</th><th>Kind</th><th>Words</th><th>SHA-256</th></tr></thead><tbody><tr><td>1</td><td><a href="#source-1">Living Master Library</a></td><td>1.3.2</td><td>library</td><td>3,793</td><td class="hash">82e8a33cd4b46ca29ccb2c16944ab6b4a8da89c2e94cc674da82a895955c4df9</td></tr><tr><td>2</td><td><a href="#source-2">LivingPress</a><br><small>Published thought that stays alive.</small></td><td>1.2.0</td><td>module</td><td>981</td><td class="hash">2f6db256a66dc90151917e57e9689c3252ffc14933a5e273e6735d534df10481</td></tr><tr><td>3</td><td><a href="#source-3">LivingChangelog</a><br><small>Release notes that only claim what actually shipped.</small></td><td>1.2.0</td><td>module</td><td>2,469</td><td class="hash">3c03111a140e12338861291f9cdf8d0a44829d6547a05e575f5db4455b86b4a3</td></tr><tr><td>4</td><td><a href="#source-4">LivingGuide</a><br><small>Your project remembers itself.</small></td><td>1.0.2</td><td>module</td><td>2,114</td><td class="hash">7f9e7e43b7eb52cac0f2e8caad0f2ca4c6340e9c6082210df68a96b9718c8b19</td></tr><tr><td>5</td><td><a href="#source-5">LivingDocs</a><br><small>Documentation that stays true.</small></td><td>1.0.2</td><td>module</td><td>7,473</td><td class="hash">53782f7a6c85c9e873843e8dfdd20c10bdda737e68256ef3d94e8f2a3a9b63ff</td></tr><tr><td>6</td><td><a href="#source-6">LivingRoadmap</a><br><small>Plans that know when reality changed.</small></td><td>1.0.0</td><td>module</td><td>1,429</td><td class="hash">b314fcd6b32ce04f6c204e252364d4fa3e16425fc732897f8b97f4570ae7ca90</td></tr><tr><td>7</td><td><a href="#source-7">Collective Master Library</a><br><small>The ecosystem remembers itself.</small></td><td>1.1.1</td><td>archive</td><td>379</td><td class="hash">7b5c978cf6d241a02f7bdbe4060bdf00ee26504f22949126e6ca8788d1dbdbdc</td></tr></tbody></table></div><p><small>This page is a rendered reading view. The verbatim text of every guide is preserved byte-for-byte in <code>COLLECTIVE-MASTER-LIBRARY.md</code> and in <code>sources/</code>, and each file is fingerprinted in <code>COLLECTIVE-MANIFEST.json</code>. Aggregation does not upgrade the certainty of any local claim.</small></p></section><section id="source-1" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 1</span><h2>Living Master Library <small>v1.3.2</small></h2></div><div class="meta">3,793 words<br>library</div></div><div class="provenance">FOUNDERS-GUIDE.md<br><span class="hash">sha256 82e8a33cd4b46ca29ccb2c16944ab6b4a8da89c2e94cc674da82a895955c4df9</span></div><div class="body"><h2>Living Master Library — Founder’s Guide</h2>
+<p><strong>Canonical status:</strong> v1.3.2 package archive<br><strong>Truth posture:</strong> evidence-first; estimates and unknowns are labeled<br><strong>Creator:</strong> Kenneth E. Sweet Jr. — Solo Founder / Infrastructure Architect<br><strong>Product thesis:</strong> <strong>One install. One control plane. A library of systems that keep important things true over time.</strong></p>
+<p>This guide documents the Living Master Library package as it exists in the v1.3.2 source distribution. It does not claim external users, revenue, production scale, acquisition interest, or market validation because those facts are not proven by this repository.</p>
+<h3>Status legend</h3>
+<ul><li><strong>Confirmed</strong> — directly present in source/package metadata or proven by the shipped test suite.</li><li><strong>Observed in code/docs</strong> — present in the repository but not necessarily externally deployed.</li><li><strong>Inferred</strong> — reasonable architectural interpretation, explicitly not implementation proof.</li><li><strong>Planned</strong> — stated direction, not shipped behavior.</li><li><strong>Speculative</strong> — possible future product direction.</li><li><strong>Unknown</strong> — the package does not establish the answer.</li></ul>
+<hr>
+<h2>1. Executive Summary</h2>
+<p><strong>Confirmed:</strong> Living Master Library v1.3.2 is a zero-runtime-dependency npm-style umbrella distribution that bundles five Living product modules plus livingcore behind one CLI: livingcore 1.0.0, LivingPress 1.2.0, LivingChangelog 1.2.0, LivingGuide 1.0.2, LivingDocs 1.0.2, and LivingRoadmap 1.0.0. It also ships Collective Master Library 1.1.1 as a separate archive layer over their Founder’s Guides, including its own.</p>
+<p>The Library exists because the five product engines had evolved into a coherent family but still required separate distribution and setup. The umbrella adds a product-level control plane rather than creating another autonomous engine. It introduces a single <code>living</code> executable, project activation state under <code>.living/</code>, shared environment aliases, module enable/disable behavior, unified status/doctor/audit commands, and a top-level integrity check ensuring each standalone module’s vendored livingcore remains identical to the canonical Library copy.</p>
+<p>The strategic insight is that the family shares a recurring loop:</p>
+<pre><code>observe reality → establish evidence → make bounded claims → challenge claims
+→ publish/preserve state → detect drift → repair → retain history</code></pre>
+<p>Each module applies that loop to a different truth surface: editorial publishing, shipped product history, institutional memory, technical documentation, or future-intent/roadmap reconciliation.</p>
+<p><strong>Current maturity:</strong> functional source distribution with passing local self-tests and package-level orchestration. <strong>Unknown:</strong> npm publication status, production adoption, paying customers, external validation, or operating scale.</p>
+<p><strong>Short-term opportunity:</strong> simplify adoption of the existing Living family and make future Living modules installable through one recognizable product namespace.</p>
+<p><strong>Long-term vision (inferred/planned):</strong> the Library becomes the stable distribution and control plane for a growing catalog of evidence-grounded “Living” systems.</p>
+<hr>
+<h2>2. Canonical Identity</h2>
+<p><strong>Official name:</strong> Living Master Library<br><strong>Package name:</strong> <code>living-master-library</code><br><strong>Primary CLI:</strong> <code>living</code><br><strong>Alternate CLI:</strong> <code>living-master-library</code><br><strong>Version:</strong> 1.3.2</p>
+<p><strong>Bundled lineage:</strong></p>
+<ul><li>livingcore 1.0.0</li><li>LivingPress 1.2.0</li><li>LivingChangelog 1.2.0</li><li>LivingGuide 1.0.2</li><li>LivingDocs 1.0.2</li><li>LivingRoadmap 1.0.0</li></ul>
+<p><strong>Creator attribution:</strong> Kenneth E. Sweet Jr., Solo Founder / Infrastructure Architect.</p>
+<p><strong>Creation context — confirmed from this package’s development:</strong> the Library was created after LivingPress had already been separated from shared <code>livingcore</code>, followed by LivingChangelog, LivingGuide, and LivingDocs. The umbrella package is therefore a distribution/control-plane layer above existing engines rather than the origin of those engines.</p>
+<p><strong>Canonical tagline:</strong> “One install. One control plane. A library of systems that keep important things true over time.”</p>
+<p><strong>Family phrases retained by bundled products:</strong></p>
+<ul><li>LivingPress — published thought that stays alive.</li><li>LivingChangelog — release notes that only claim what actually shipped.</li><li>LivingGuide — your project remembers itself.</li><li>LivingDocs — documentation that stays true.</li></ul>
+<hr>
+<h2>3. Project Classification</h2>
+<p>The Library is best classified as:</p>
+<ul><li><strong>Confirmed — Developer tooling:</strong> a command-line distribution and orchestration package.</li><li><strong>Confirmed — Product suite:</strong> four user-facing engines plus a shared kernel.</li><li><strong>Confirmed — Infrastructure/control plane:</strong> it manages activation, paths, shared aliases, health, tests, and integrity.</li><li><strong>Observed — Open-source package architecture:</strong> MIT license is included and the complete source for bundled modules is distributed.</li><li><strong>Inferred — Platform:</strong> the registry and module-dispatch architecture can support additional Living modules, but a remote plugin marketplace is not implemented.</li><li><strong>Not established — SaaS:</strong> no hosted control plane or billing system exists in this package.</li><li><strong>Not established — Marketplace:</strong> there is no module marketplace or remote catalog service.</li></ul>
+<hr>
+<h2>4. Core Concept</h2>
+<p>The core concept is not merely “install four tools together.” The useful product boundary is <strong>one coherent operational surface for a family that shares evidence/provenance principles but applies them to different domains</strong>.</p>
+<p>The Library solves three immediate problems:</p>
+<ol><li><strong>Distribution fragmentation.</strong> Users no longer need to reason about five separate archives before trying the family.</li><li><strong>Configuration fragmentation.</strong> Common AI/database/secret values can be provided through shared <code>LIVING_*</code> aliases while product-specific overrides remain possible.</li><li><strong>Core drift.</strong> The standalone modules intentionally retain vendored livingcore copies to remain zero-dependency standalone packages. The Library compensates by hashing those copies against its canonical core and surfacing divergence.</li></ol>
+<p>The architectural moat, if one develops, is not the CLI itself. It would come from the combination of reusable deterministic primitives, increasingly specialized truth-maintenance engines, cross-module provenance, and a stable operator experience. <strong>That moat is potential, not proven market defensibility.</strong></p>
+<hr>
+<h2>5. Full Feature Inventory</h2>
+<h3>5.1 Unified CLI — Confirmed</h3>
+<p><code>cli/main.mjs</code> provides:</p>
+<ul><li><code>living init</code></li><li><code>living modules</code></li><li><code>living status</code></li><li><code>living doctor</code></li><li><code>living audit</code></li><li><code>living test</code></li><li><code>living enable</code></li><li><code>living disable</code></li><li><code>living env</code></li><li>module routing for <code>press</code>, <code>changelog</code>, <code>guide</code>, <code>docs</code>, and <code>roadmap</code></li><li>collective archive routing for <code>living collective build|status|verify|sources</code></li></ul>
+<h3>5.2 Project control directory — Confirmed</h3>
+<p>Initialization creates <code>.living/</code> with:</p>
+<ul><li><code>library.json</code> — activation/version manifest</li><li><code>config/</code> — module config copies</li><li><code>state/</code> — persistent local state used by Guide/Docs wrappers</li><li><code>output/</code> — generated artifacts from those modules</li></ul>
+<p>The Library intentionally does not store secret values in <code>library.json</code>.</p>
+<h3>5.3 Module activation — Confirmed</h3>
+<p>Modules are physically included in the package regardless of project activation. <code>enable</code> and <code>disable</code> change project-level participation and preserve config files when disabling.</p>
+<h3>5.4 Shared environment aliases — Confirmed</h3>
+<p>The wrapper maps:</p>
+<ul><li><code>LIVING_AI_KEY</code>, <code>LIVING_AI_URL</code>, <code>LIVING_AI_MODEL</code></li><li><code>LIVING_DB_URL</code>, <code>LIVING_DB_SERVICE_KEY</code></li><li><code>LIVING_OWNER_SECRET</code>, <code>LIVING_CRON_SECRET</code></li></ul>
+<p>into the active module’s native environment namespace when no module-specific override already exists.</p>
+<h3>5.5 Environment privacy — Confirmed</h3>
+<p><code>living env</code> reports booleans indicating recognized variable presence and never prints values.</p>
+<h3>5.6 Health/doctor pass — Confirmed</h3>
+<p>Doctor checks:</p>
+<ul><li>Node version compatibility</li><li>Library initialization</li><li>canonical-vs-vendored core hash integrity</li><li>enabled module config presence</li><li>config JSON validity</li><li>placeholder counts as warnings</li><li>recognized environment presence</li></ul>
+<p>Doctor is intentionally a local package-health check, not proof of external production readiness.</p>
+<h3>5.7 Unified audit — Confirmed</h3>
+<p><code>living audit</code> combines doctor results with all bundled self-tests.</p>
+<p>Clean baseline shipped in v1.3.2:</p>
+<div class="table"><table><thead><tr><th>Suite</th><th>Passing checks</th></tr></thead><tbody><tr><td>Living Master Library</td><td>37</td></tr><tr><td>livingcore</td><td>28</td></tr><tr><td>Collective Master Library</td><td>37</td></tr><tr><td>LivingPress</td><td>60</td></tr><tr><td>LivingChangelog</td><td>106</td></tr><tr><td>LivingGuide</td><td>104</td></tr><tr><td>LivingDocs</td><td>108</td></tr><tr><td>LivingRoadmap</td><td>68</td></tr><tr><td><strong>Total</strong></td><td><strong>548</strong></td></tr></tbody></table></div>
+<p>These numbers establish local test coverage only.</p>
+<h3>5.8 Core integrity gate — Confirmed</h3>
+<p>The Library computes SHA-256 hashes for canonical <code>core/src/*.ts</code> files and compares every bundled module’s vendored <code>core/*.ts</code> copy. A modified/missing file creates an integrity failure.</p>
+<h3>5.9 Product passthrough — Confirmed</h3>
+<ul><li>Guide/Docs receive automatic project-local config/state/output paths.</li><li>Changelog retains its stateless preview CLI.</li><li>Press exposes setup/test through the Library; server mounting remains an integration concern documented by LivingPress itself.</li></ul>
+<h3>5.10 Space-safe LivingPress setup — Confirmed</h3>
+<p>The Library’s bundled Press wizard accepts a project-local target through <code>LIVINGPRESS_CONFIG_PATH</code> using file-URL conversion rather than naïve path interpolation. Backups are written beside the target config.</p>
+<hr>
+<h3>5.11 LivingRoadmap integration — Confirmed</h3>
+<p>The 1.1.0 Library adds <code>living roadmap</code> as a first-class module route. Project initialization can enable <code>roadmap</code>; its config lives under <code>.living/config/livingroadmap.config.json</code>; its state and generated outputs remain project-local. Doctor includes its vendored livingcore copy in the same integrity gate as the other products.</p>
+<p>LivingRoadmap owns the future-intent truth surface: declared plans, implementation candidates, shipping candidates, stale intent, unplanned work, and preserved roadmap decisions. Ambiguous evidence cannot silently promote an item to Shipped.</p>
+<h3>5.12 Collective Master Library integration — Confirmed</h3>
+<p>LML v1.2.0 added <strong>Collective Master Library (CoML)</strong> as an archive layer rather than a sixth Living module; v1.3.2 ships CoML 1.1.1. CoML discovers the Library Founder’s Guide, every Founder’s Guide belonging to a registered Living module, and its own Founder’s Guide, fingerprints each source with SHA-256, and produces a lossless collective Markdown archive, responsive/print-ready HTML, machine-readable source manifest, and content-addressed source snapshots. The HTML is a rendered reading view; the byte-exact text lives in the combined Markdown and the snapshots.</p>
+<p><code>living collective verify</code> compares the current source set to the last collective manifest. Changed, added, or removed canonical guides, or a module version change, mark the prior archive STALE. A missing or modified snapshot, combined Markdown or HTML file marks it DAMAGED.</p>
+<p><code>living collective check</code> cross-checks the guides against each other and the catalog: declared versions, versions stated for other products, test counts and table totals. It is deterministic, skips history sections, reports file and line for every claim involved, and never edits a guide. Every build includes the report. A Library self-test runs it, so a release whose guides contradict each other fails its own suite. Aggregation cannot upgrade the epistemic status of local claims; local Founder’s Guides remain canonical inside their own scope.</p>
+<p>This establishes a deliberate hierarchy:</p>
+<pre><code>module Founder’s Guides = local canonical truth
+Living Master Library Founder’s Guide = LML product truth
+Collective Master Library = ecosystem archive of those canonical sources</code></pre>
+<h2>6. Architecture Analysis</h2>
+<pre><code>                     ┌──────────────────────────┐
+                     │  Living Master Library   │
+                     │      package v1.3.2      │
+                     └────────────┬─────────────┘
+                                  │
+                       ┌──────────▼──────────┐
+                       │  unified `living`   │
+                       │       CLI           │
+                       └──────────┬──────────┘
+                                  │
+              ┌───────────────────┼───────────────────┐
+              │                   │                   │
+       project control       module routing      health/audit
+        `.living/`                │                   │
+              │          ┌────────┼─────────┐         │
+              │          │        │         │         │
+              │       Press   Changelog   Guide     Docs
+              │          │        │         │         │
+              └──────────┴────────┴────┬────┴─────────┘
+                                      │
+                              livingcore contract</code></pre>
+<h4>Strengths</h4>
+<ul><li>Zero runtime npm dependencies.</li><li>Existing module source remains visible and independently testable.</li><li>No forced database for the control plane.</li><li>Shared aliases reduce configuration repetition without erasing product-specific controls.</li><li>Project activation is explicit and inspectable.</li><li>Core drift becomes observable.</li><li>Module dispatch delegates into existing engines instead of cloning their business logic.</li></ul>
+<h4>Weaknesses / technical debt</h4>
+<ul><li><strong>Confirmed:</strong> the package currently carries canonical livingcore plus five vendored copies. This is deliberate for standalone compatibility but duplicates source bytes.</li><li><strong>Confirmed:</strong> LivingPress does not yet expose a full operational CLI comparable to Guide/Docs; the umbrella can configure/test it but runtime integration is framework/server-specific.</li><li><strong>Confirmed:</strong> Changelog preview is CLI-friendly, but its deployed engine lifecycle is not yet represented by a full umbrella lifecycle command set.</li><li><strong>Observed:</strong> Node 22.6+ is required because module source is executed through Node’s TypeScript type stripping.</li><li><strong>Unknown:</strong> Windows behavior has not been established by the shipped tests even though path handling was written with cross-platform utilities where necessary.</li></ul>
+<h4>Scalability</h4>
+<p>The control plane itself is local and lightweight. Scaling constraints primarily belong to individual modules and their adapters. There is no evidence in this package supporting a specific throughput or organization-size claim.</p>
+<hr>
+<h2>7. Strategic Ecosystem Role</h2>
+<p>The Library is the natural <strong>front door</strong> for the Living family.</p>
+<p>Before the Library, the architecture was horizontal: multiple siblings sharing a kernel. The Library adds a vertical layer above them:</p>
+<pre><code>user/operator
+     ↓
+Living Master Library
+     ↓
+Living product modules
+     ↓
+livingcore primitives</code></pre>
+<p>This gives future modules a predictable place to live without forcing all product behavior into livingcore.</p>
+<p>Potential future cross-module relationships include Changelog events invalidating Docs claims or Guide state, and Guide/Docs evidence feeding shared provenance. <strong>Those connections are not implemented by the current umbrella and should not be described as shipped.</strong></p>
+<hr>
+<h2>8. Development History</h2>
+<p><strong>1.1.0 expansion — Confirmed:</strong> LivingRoadmap was added as the fifth module to cover the missing temporal truth surface: future intent. Its design explicitly separates implementation/shipping candidates from authoritative status transitions.</p>
+<p><strong>1.2.0 archive layer — Confirmed:</strong> Collective Master Library was added to roll every Founder’s Guide into one fingerprinted archive without making it a sixth truth module.</p>
+<p><strong>1.2.1 correction — Confirmed:</strong> CoML verification was extended from source drift to archive integrity (missing or edited snapshots and outputs now report DAMAGED), the HTML archive was changed from raw Markdown to a rendered view, and hand-synced version strings were removed.</p>
+<p><strong>1.3.0 consistency — Confirmed:</strong> CoML 1.1.0 includes its own Founder’s Guide and adds a deterministic cross-guide consistency check. LivingGuide 1.0.1 expands its Founder’s Guide into the full 18-section archive format.</p>
+<p><strong>1.3.1 self-run fix — Confirmed:</strong> pointing LivingGuide at the Library itself showed that the LivingGuide and LivingDocs scanners walked the Library’s own <code>.living/</code> directory, so a previous edition, its state file or the project config could become evidence for the next one. Both scanners now skip <code>.living/</code> (LivingRoadmap already did), and a Library self-test proves it for all three scanning modules.</p>
+<p><strong>1.3.2 one repository — Confirmed:</strong> every package now points to a single family repository, <code>SweetKenneth/living</code>, with each package's folder recorded in its <code>repository.directory</code>. Whether the repository is public is not established by this package.</p>
+<p><strong>Confirmed sequence represented by the bundled versions:</strong></p>
+<ol><li>LivingPress matured as an autonomous editorial engine.</li><li>Shared invariants were extracted into livingcore 1.0.0.</li><li>LivingChangelog reused the core for evidence-grounded release publishing.</li><li>LivingGuide reused the core to maintain a canonical project truth model and continuity archive.</li><li>LivingDocs reused the core to maintain implementation-grounded documentation.</li><li>Living Master Library was created when the family itself became a product boundary worth packaging.</li></ol>
+<p>The important pivot was conceptual: instead of repeatedly asking what LivingPress could be transformed into, the architecture separated reusable truth-maintenance machinery from the domain-specific truth surface.</p>
+<hr>
+<h2>9. Current State Assessment</h2>
+<h4>What works — Confirmed</h4>
+<ul><li>one-install source package</li><li>unified CLI</li><li>project initialization</li><li>module activation/deactivation</li><li>config staging</li><li>shared environment aliases</li><li>health/doctor output</li><li>full-suite audit execution</li><li>canonical-vs-vendored livingcore hashing</li><li>real command passthrough for Guide/Docs/Changelog</li><li>project-local LivingPress setup target</li><li>collective Founder’s Guide aggregation and drift verification</li><li>full passing checks across umbrella + core + CoML + bundled Living suites</li></ul>
+<h4>Incomplete / unknown</h4>
+<ul><li>npm publication is not established by source.</li><li>automated upgrade/migration between future Library versions is not implemented.</li><li>remote module discovery is not implemented.</li><li>hosted UI/control panel is not implemented.</li><li>centralized cross-module event bus is not implemented.</li><li>semantic cross-guide synthesis/deduplication is not implemented; CoML 1.1.1 checks factual consistency deterministically but intentionally prefers lossless source preservation over rewriting.</li><li>external adoption, revenue, and support burden are unknown.</li></ul>
+<h4>Estimated maturity</h4>
+<p>These are architectural estimates, not external benchmarks:</p>
+<ul><li><strong>Implementation maturity:</strong> 8/10 — core local workflows are present and heavily self-tested.</li><li><strong>Distribution maturity:</strong> 6/10 — package structure is ready for packing/install testing; public registry publication is separate.</li><li><strong>Operational maturity:</strong> 5/10 — module operation varies and external deployments are not proven by the umbrella.</li><li><strong>Commercial maturity:</strong> Unknown/early — no evidence of customers or revenue is contained here.</li></ul>
+<hr>
+<h2>10. Monetization Analysis</h2>
+<p>No present valuation or revenue should be inferred from code quality alone.</p>
+<h4>Plausible models — Inferred</h4>
+<ul><li>open-source core/library with commercial hosted control plane</li><li>paid enterprise module bundle/support</li><li>commercial adapters/connectors</li><li>managed evidence/provenance storage</li><li>team collaboration layer</li><li>compliance/governance modules</li><li>commercial licensing for organizations that do not want reciprocal/open licensing if licensing changes later</li></ul>
+<h4>Lowest-effort monetization path — Inferred</h4>
+<p>The lowest implementation burden would likely be paid support/setup or a commercial package around existing modules, because the source engines already exist. This is not evidence that demand exists.</p>
+<h4>Higher-upside path — Speculative</h4>
+<p>A hosted Living control plane with repository/app connectors, organization policy, shared evidence ledger, schedules, alerts, and module catalog could create recurring SaaS economics. That would be a materially new product layer and must not be represented as implemented.</p>
+<h4>Valuation</h4>
+<p><strong>Unknown.</strong> A defensible numeric valuation would require external comparables, adoption, revenue, retention, support costs, licensing strategy, and buyer context. This guide intentionally does not fabricate dollar ranges.</p>
+<hr>
+<h2>11. Competitive Positioning</h2>
+<p>No competitor research is embedded in the package, so specific superiority claims would require external research.</p>
+<p>The internal differentiation is architectural:</p>
+<ul><li>the suite is organized around maintaining truth under change rather than one-shot generation;</li><li>deterministic checks sit beside model judgment;</li><li>receipt/provenance concepts repeat across modules;</li><li>uncertainty is intentionally preserved in Guide/Docs;</li><li>Changelog distinguishes merged code from shipping evidence;</li><li>Docs rejects documentation-only proof for implementation behavior.</li></ul>
+<p>Whether that produces market-level differentiation is <strong>unverified</strong>.</p>
+<hr>
+<h2>12. Future Vision</h2>
+<h4>Confirmed design direction</h4>
+<p>The registry/dispatcher can admit additional modules without changing the product thesis.</p>
+<h4>High-fit future modules — Speculative until built</h4>
+<ul><li>LivingRunbook — procedures that re-prove they still work.</li><li>LivingSpec — requirements reconciled against implementation.</li><li>LivingPolicy — policy/control claims reconciled against operational evidence.</li><li>LivingIncident — evidence-backed incident timelines and corrective-action verification.</li><li>LivingKnowledge — provenance-backed organizational knowledge with decay/drift handling.</li><li>LivingPortfolio — cross-project truth and dependency layer.</li></ul>
+<p>The selection rule should remain: <strong>what important thing goes stale, and what stronger evidence can prove its current state?</strong></p>
+<hr>
+<h2>13. Priority Roadmap</h2>
+<h4>Immediate</h4>
+<ol><li>Package-install smoke test from the actual generated npm tarball.</li><li>Add upgrade/migration semantics for <code>.living/library.json</code> before schema changes are needed.</li><li>Define a formal module contract (metadata + command capabilities) so CLI routing becomes data-driven rather than partially special-cased.</li><li>Add cross-platform CI, particularly Windows.</li><li>Decide publication/licensing/namespace strategy before public release.</li></ol>
+<h4>High leverage</h4>
+<ol><li>Standardize lifecycle commands across products where appropriate: <code>init</code>, <code>status</code>, <code>audit</code>, <code>doctor</code>.</li><li>Introduce optional cross-module event/provenance references without coupling engines tightly.</li><li>Add a machine-readable health output contract suitable for CI.</li><li>Add signed release manifests for Library/module integrity.</li></ol>
+<h4>Longer-term</h4>
+<ol><li>Remote/hosted control plane only if actual use demonstrates that local CLI orchestration is insufficient.</li><li>Module marketplace/catalog only after more modules exist and version compatibility is a real problem.</li></ol>
+<hr>
+<h2>14. Risk Analysis</h2>
+<h4>Technical</h4>
+<ul><li>duplicate vendored core copies can drift; currently mitigated by hash audit.</li><li>source execution depends on Node’s TypeScript-stripping support.</li><li>umbrella wrappers may lag module-specific CLI changes if command contracts are not formalized.</li><li>future module version incompatibility requires migration/version negotiation.</li></ul>
+<h4>Operational</h4>
+<ul><li>a single package increases release coordination responsibility.</li><li>users may assume <code>living audit</code> proves external services are healthy; documentation must keep the distinction clear.</li><li>secret aliases simplify configuration but require careful documentation so server-only values never move client-side.</li></ul>
+<h4>Product</h4>
+<ul><li>the family could become incoherent if modules are added merely because the “LivingX” name sounds good.</li><li>too many modules could dilute the strongest concept: truth maintenance under change.</li><li>the Library must not become a generic agent framework unless evidence shows that is the right product.</li></ul>
+<h4>Founder bottleneck</h4>
+<p>The product family currently reflects a solo-founder architecture and naming system. Preservation docs and deterministic tests reduce—but do not eliminate—the risk of intent living only in the creator’s head.</p>
+<hr>
+<h2>15. Preservation &amp; Continuity</h2>
+<p>A future operator should understand these non-negotiable rules:</p>
+<ol><li><strong>livingcore is the shared invariant layer.</strong> Fix common behavior there first.</li><li><strong>Do not silently tolerate vendored core drift.</strong> Update canonical core and synchronize intentionally.</li><li><strong>Generated prose is not automatically truth.</strong> Each module defines stronger evidence.</li><li><strong>Preserve uncertainty.</strong> Downgrading confidence is preferable to invented certainty.</li><li><strong>Do not merge module truth surfaces just to reduce file count.</strong> Press, Changelog, Guide, Docs, and Roadmap exist separately for a reason.</li><li><strong>The Library is a control plane, not the evidence database for every module.</strong></li><li><strong>Never place credentials in the canonical manual or <code>.living/library.json</code>.</strong> Use secure external storage.</li></ol>
+<p>Recovery procedure:</p>
+<ul><li>verify Node version;</li><li>run <code>living modules</code>;</li><li>run <code>living doctor</code>;</li><li>run <code>living test all</code>;</li><li>inspect <code>.living/library.json</code> and configs;</li><li>inspect each module’s own Founder’s Guide before materially changing its truth model;</li><li>resolve core drift before product changes.</li></ul>
+<p>[SECURE SECRET REFERENCE: credentials must remain outside this document.]</p>
+<hr>
+<h2>16. Strategic Importance Ranking</h2>
+<p>These are founder-architecture estimates, not market scores.</p>
+<div class="table"><table><thead><tr><th>Dimension</th><th>Estimate</th><th>Reason</th></tr></thead><tbody><tr><td>Ecosystem importance</td><td>9/10</td><td>It becomes the front door and compatibility layer for every Living module.</td></tr><tr><td>Technical uniqueness</td><td>7/10</td><td>The CLI itself is conventional; the evidence-maintenance family behind it is more distinctive.</td></tr><tr><td>Replacement difficulty</td><td>6/10</td><td>The wrapper can be rewritten, but preserving all module contracts/integrity behavior takes care.</td></tr><tr><td>Monetization potential</td><td>Unknown</td><td>Requires external demand evidence.</td></tr><tr><td>Long-term leverage</td><td>9/10</td><td>Every future module can strengthen one distribution/control plane.</td></tr><tr><td>Current operational dependency</td><td>5/10</td><td>Standalone products still work without the Library by design.</td></tr></tbody></table></div>
+<hr>
+<h2>17. Recommended Next Actions</h2>
+<ol><li>Treat <code>living-master-library</code> as the default public entry point while retaining standalone module distributions.</li><li>Keep individual module versions independent; let Library releases pin known-compatible combinations.</li><li>Define a formal module manifest interface before adding the next two modules.</li><li>Add upgrade/migration tests before changing <code>.living/</code> schema.</li><li>Add CI across supported operating systems.</li><li>Keep full-suite regression testing mandatory for every Library release.</li><li>Resist hosted complexity until user behavior shows a need.</li><li>When adding modules, require a written answer to: “what goes stale, what evidence proves it, and what deterministic gate prevents circular truth?”</li></ol>
+<hr>
+<h2>18. Canonical Summary</h2>
+<p>Living Master Library represents the moment the Living products became more valuable as a <strong>coherent library</strong> than as a collection of related archives.</p>
+<p>Its purpose is not to erase product boundaries. Its purpose is to make those boundaries easy to install, operate, verify, and extend.</p>
+<p>The durable architecture is:</p>
+<pre><code>one control plane
+many bounded truth surfaces
+one shared invariant kernel
+evidence before certainty
+history instead of silent rewriting</code></pre>
+<p>The Library should continue existing as long as it reduces operational fragmentation without weakening the independence and truth rules of its modules.</p>
+<p>Its ultimate form could become a complete local-or-hosted control plane for evidence-grounded Living systems. That is a future possibility, not a current claim.</p>
+<p>For v1.3.2, the verified product is concrete: <strong>one package containing the full existing Living family, one CLI to control it, one project namespace to configure it, and one audit surface capable of proving the package has not quietly split into incompatible cores.</strong></p>
+<hr>
+<h3>Final truth audit</h3>
+<ul><li><strong>External users:</strong> Unknown.</li><li><strong>Revenue:</strong> Unknown.</li><li><strong>Public npm publication:</strong> Unknown.</li><li><strong>Production scale:</strong> Unknown.</li><li><strong>548 passing local checks:</strong> Confirmed by shipped suite baseline at v1.3.2.</li><li><strong>One-install package structure:</strong> Confirmed.</li><li><strong>Shared environment aliases:</strong> Confirmed.</li><li><strong>Core integrity audit across five modules:</strong> Confirmed.</li><li><strong>Remote module marketplace:</strong> Not implemented.</li><li><strong>Hosted dashboard:</strong> Not implemented.</li><li><strong>Cross-module autonomous event bus:</strong> Not implemented.</li></ul>
+<p>The archive should be updated whenever the bundled module matrix, control-plane schema, or core contract changes.</p></div></section><section id="source-2" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 2</span><h2>LivingPress <small>v1.2.0</small></h2></div><div class="meta">981 words<br>module</div></div><div class="provenance">modules/livingpress/FOUNDERS-GUIDE.md<br><span class="hash">sha256 2f6db256a66dc90151917e57e9689c3252ffc14933a5e273e6735d534df10481</span></div><div class="body"><h2>LivingPress — Founder's Guide</h2>
+<p><em>LivingPress: Autonomous Editorial Engine.</em> This guide is only about LivingPress: what it does, what you control, and how to read what it tells you.</p>
+<h3>What it is</h3>
+<p>A writer that lives on your site. A few times a day it wakes up, looks at what it has already published, and asks one question: <strong>do I have something worth saying?</strong> Most of the time the honest answer is no, and it goes back to sleep — and writes down why. When the answer is yes, it writes, argues with itself, fixes what it got wrong, adds an image, and publishes.</p>
+<p>It also goes back and <strong>re-reads its old posts</strong>. If something it said is no longer true — a price changed, a page moved, a word you've retired — it corrects the post and adds a visible &quot;Updated&quot; note so readers can see what changed.</p>
+<h3>The rules it lives by</h3>
+<ol><li><strong>It only states your facts.</strong> It may only rely on the house facts you gave it. Anything else is treated as a claim it cannot support.</li><li><strong>Every post must be worth reading even if your business didn't exist.</strong> Only every third post (you choose) may recommend you directly. The rest just help.</li><li><strong>Silence beats filler.</strong> A missed day is fine. A bad post isn't.</li><li><strong>No image, no post.</strong></li><li><strong>Corrections are public.</strong> It never quietly rewrites history.</li></ol>
+<h3>How one post gets made</h3>
+<ol><li><strong>Health check.</strong> If it has been failing repeatedly, its safety switch is off and it stays quiet.</li><li><strong>Self-repair.</strong> Fixes small breakages (missing images, stuck topics).</li><li><strong>Maybe re-read an old post</strong> instead of writing a new one.</li><li><strong>Look at the gaps</strong> — topics with no main article, main articles without follow-ups, topics gone stale.</li><li><strong>Pick a topic</strong> using its strategy: stick with what's working, try something less covered, or retry a failed idea from a new angle.</li><li><strong>Write the draft.</strong></li><li><strong>Safety check (no AI involved):</strong> made-up numbers, fake testimonials, risky advice, broken links, robot phrasing.</li><li><strong>Two critics.</strong> A <em>Reader</em> asks &quot;was this worth my time?&quot; A <em>Skeptic</em> asks &quot;can we prove this?&quot; Both must pass. One rewrite allowed.</li><li><strong>Seven gates</strong> — reader, skeptic, safety, length, links, not-an-ad, clean. All must pass.</li><li><strong>Image, then publish.</strong> Every outcome — published, silent, blocked, corrected — gets a sealed receipt.</li></ol>
+<h3>What you control (<code>livingpress.config.json</code>)</h3>
+<div class="table"><table><thead><tr><th>Setting</th><th>What it means</th></tr></thead><tbody><tr><td>Site, blog name, tagline</td><td>Names and where the blog lives</td></tr><tr><td>Audience</td><td>Who it writes for — the more specific, the better the posts</td></tr><tr><td>Voice</td><td>How it sounds</td></tr><tr><td><strong>House facts</strong></td><td>The only truth it may tell. Update this whenever something changes — old posts will be corrected to match</td></tr><tr><td>Never claim</td><td>Things it must never say</td></tr><tr><td>Retired words</td><td>Words it must stop using; old posts get cleaned too</td></tr><tr><td>Content topics</td><td>3–6 subjects, each with its argument and search terms</td></tr><tr><td>Reader problems</td><td>What your readers are struggling with</td></tr><tr><td>Site links</td><td>Pages it may link to — it will link nowhere else</td></tr><tr><td>Advocacy every</td><td>Every Nth post may recommend you</td></tr><tr><td>Word targets</td><td>Length of main articles and follow-ups</td></tr><tr><td>Quality floor</td><td>How strict the critics are. Higher = fewer, better posts</td></tr><tr><td>Cadence</td><td>Minimum hours between posts; how often it re-reads old ones</td></tr><tr><td>Safety switch</td><td>How many failures before it stops, how long it rests</td></tr></tbody></table></div>
+<h3>Seeing a post before it goes live</h3>
+<p>Ask whoever installed it to run a <strong>dry run</strong>. It does everything a real run does (picks a topic, writes, argues with itself, runs the safety check) and then stops and shows you the post instead of publishing it. Nothing changes on your site. It's the best way to judge the voice before you let it loose.</p>
+<p>It also refuses to run at all while any setup question is still unanswered, so it can never write from half a brief.</p>
+<h3>Reading its pulse</h3>
+<p>Ask whoever installed it to show you the <strong>health</strong> report:</p>
+<ul><li><strong>Healthy</strong> — heartbeat recent, safety switch closed, receipts valid.</li><li><strong>Safety switch open</strong> — it hit repeated problems (often an AI account out of credit). It's resting on purpose. Fix the cause, then reset it.</li><li><strong>Many silent days</strong> — normal for a while. If it lasts, your topics may be used up or the quality floor too high.</li><li><strong>Receipts invalid</strong> — someone edited its history. That should never happen.</li><li><strong>Config or secret findings</strong> — a setup answer is missing, or a password is too short. The report says which.</li></ul>
+<h3>Improvement suggestions (DREAM)</h3>
+<p>LivingPress studies its own history and suggests changes, for example: &quot;readers spend far more time on Topic B — favor it&quot;, &quot;you keep opening posts the same way&quot;, &quot;the critics reject almost everything — add a topic or lower the bar&quot;. <strong>It never changes itself.</strong> You accept a suggestion, or you don't.</p>
+<h3>Backup AI (NEXUS)</h3>
+<p>Give it two AI accounts if you can. When the first one runs out of quota, it switches to the next automatically and comes back to the first later.</p>
+<h3>Who sees what</h3>
+<ul><li>Readers see published posts, images, caveats and correction notes.</li><li>Topics, receipts, health and suggestions are visible only to you (owner key) and the server.</li><li>Bot traffic is filtered out, so crawlers never shape what it writes.</li></ul>
+<h3>What it is not</h3>
+<p>It is not a content calendar, and it won't post daily just because a day passed. It cannot know facts you didn't give it. It needs a database, an AI account and a scheduler to run — those are the only outside things it depends on.</p></div></section><section id="source-3" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 3</span><h2>LivingChangelog <small>v1.2.0</small></h2></div><div class="meta">2,469 words<br>module</div></div><div class="provenance">modules/livingchangelog/FOUNDERS-GUIDE.md<br><span class="hash">sha256 3c03111a140e12338861291f9cdf8d0a44829d6547a05e575f5db4455b86b4a3</span></div><div class="body"><h2>LivingChangelog: Founder's Guide</h2>
+<p>LivingChangelog writes your public changelog for you. It watches where work actually happens (GitHub releases, merged pull requests, deploys), decides what deserves a public entry, and refuses to call something shipped until there's proof it reached production. Most of the time it says nothing, and it writes down why.</p>
+<p>This guide has two parts: <strong>getting it running</strong>, step by step, and <strong>how it thinks</strong>, so you can read what it tells you.</p>
+<hr>
+<h2>Part 1: Getting it running</h2>
+<p>Plan on about an hour the first time. If someone else (a developer or a coding agent) is doing the install, hand them the README and keep this guide for yourself: the steps below tell you what they should hand back to you.</p>
+<h3>Step 0. Try it before you install anything</h3>
+<pre><code>npx livingchangelog preview --repo your-github-name/your-repo</code></pre>
+<p>This reads your repo's last two weeks, shows which changes can be proven live, and what it would skip. Nothing is published or saved. Add an AI key to see the actual entries it would write, and try the voices side by side:</p>
+<pre><code>ANTHROPIC_API_KEY=your-key npx livingchangelog preview --repo your-github-name/your-repo --voice friendly</code></pre>
+<p>If you don't like what you see here, stop. The real install produces the same kind of entries.</p>
+<h3>Step 1. Get the code and check it works</h3>
+<pre><code>git clone https://github.com/SweetKenneth/living.git
+cd living/modules/livingchangelog
+npm test</code></pre>
+<p>You should see <code>106 passed, 0 failed</code>. No keys or internet needed for this.</p>
+<h3>Step 2. Answer the setup questions</h3>
+<pre><code>npm run setup</code></pre>
+<p>It asks about your product, who reads the changelog, the facts it's allowed to state, and which voice to use. It saves everything to <code>livingchangelog.config.json</code>. At the end it prints <strong>three secrets</strong>. Copy them somewhere safe right away (a password manager is ideal). They're explained in Step 6.</p>
+<p>The engine refuses to run while any answer is still an <code>[ENTER ... HERE]</code> placeholder, so it can never write from half a brief.</p>
+<h3>Step 3. Set up the database</h3>
+<p>LivingChangelog needs a Postgres database with a REST layer. Supabase (or Lovable Cloud, which runs on it) is the easiest.</p>
+<ol><li>Open your project's <strong>SQL editor</strong>.</li><li>Paste the whole contents of <code>schema.sql</code> and run it. It's safe to run again later, and safe next to LivingPress.</li><li>From the project's API settings, copy two things: the <strong>project URL</strong> and the <strong>service role (secret) key</strong>. The service key is powerful: it must only ever live on the server, never in your website's browser code.</li></ol>
+<h3>Step 4. Get an AI key</h3>
+<p>Any one of these works:</p>
+<ul><li>an <strong>Anthropic</strong> key, stored as <code>ANTHROPIC_API_KEY</code></li><li>an <strong>OpenAI</strong> key, stored as <code>OPENAI_API_KEY</code></li><li>a <strong>Lovable AI Gateway</strong> key, stored as <code>LIVINGCHANGELOG_AI_KEY</code></li><li><strong>any other OpenAI-compatible provider</strong> (OpenRouter, Groq, Together…): its key as <code>LIVINGCHANGELOG_AI_KEY</code>, plus <code>LIVINGCHANGELOG_AI_URL</code> and <code>LIVINGCHANGELOG_AI_MODEL</code></li></ul>
+<p>A second provider is optional but recommended: put it in <code>LIVINGCHANGELOG_BACKUP_AI_KEY</code> (with <code>_URL</code> and <code>_MODEL</code>), and if the first runs out of credit it switches over automatically.</p>
+<h3>Step 5. Tell it where your work happens</h3>
+<p><strong>GitHub (most people).</strong> Create a read-only token: GitHub, Settings, Developer settings, fine-grained tokens. Give it access to your repo with read permission for Contents, Pull requests, Deployments and Metadata. It's needed for private repos and strongly recommended for public ones, because GitHub only allows 60 calls an hour without one.</p>
+<p><strong>Your deploys (recommended).</strong> The cleanest proof that something shipped is your deploy system saying so. If you deploy with GitHub Actions, add this step <strong>after</strong> your production deploy succeeds:</p>
+<pre><code>      - name: Tell LivingChangelog this shipped
+        if: success()
+        run: |
+          curl -fsS -X POST &quot;$SITE/api/livingchangelog/evidence&quot; \
+            -H &quot;Authorization: Bearer $INGEST&quot; -H &quot;content-type: application/json&quot; \
+            -d '{&quot;source&quot;:&quot;github-actions&quot;,&quot;external_id&quot;:&quot;deploy-${{ github.run_id }}&quot;,&quot;kind&quot;:&quot;deployment&quot;,
+                 &quot;title&quot;:&quot;Production deployment&quot;,&quot;summary&quot;:&quot;Deployed ${{ github.sha }} to production.&quot;,
+                 &quot;url&quot;:&quot;${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}&quot;,
+                 &quot;metadata&quot;:{&quot;environment&quot;:&quot;production&quot;,&quot;ref&quot;:&quot;${{ github.ref_name }}&quot;,&quot;sha&quot;:&quot;${{ github.sha }}&quot;,&quot;shipped&quot;:true}}'
+        env:
+          SITE: ${{ secrets.LIVINGCHANGELOG_SITE_URL }}
+          INGEST: ${{ secrets.LIVINGCHANGELOG_INGEST_SECRET }}</code></pre>
+<p>The two <code>${{ secrets... }}</code> values are <strong>GitHub repository secrets</strong> (repo, Settings, Secrets and variables, Actions): <code>LIVINGCHANGELOG_SITE_URL</code> is your site's address, like <code>https://your-site.com</code>, and <code>LIVINGCHANGELOG_INGEST_SECRET</code> is the ingest secret from Step 2.</p>
+<p>Any other deploy tool (Vercel, Netlify, Cloudflare, your own scripts) can send the same JSON. Only send it for production: a deploy marked <code>staging</code> is never treated as proof.</p>
+<h3>Step 6. Put the secrets on your server</h3>
+<p>Every one of these goes into your host's secret or environment-variable settings (Cloudflare, Vercel, Netlify, Supabase, Lovable). Never into the website's browser code, and never into the repo.</p>
+<div class="table"><table><thead><tr><th>Name</th><th>What it is</th><th>Where it comes from</th></tr></thead><tbody><tr><td><code>LIVINGCHANGELOG_DB_URL</code></td><td>Your database's address</td><td>Step 3</td></tr><tr><td><code>LIVINGCHANGELOG_DB_SERVICE_KEY</code></td><td>Server-only database key</td><td>Step 3</td></tr><tr><td><code>ANTHROPIC_API_KEY</code>, <code>OPENAI_API_KEY</code> or <code>LIVINGCHANGELOG_AI_KEY</code></td><td>Your AI provider key (just one)</td><td>Step 4</td></tr><tr><td><code>LIVINGCHANGELOG_GITHUB_REPO</code></td><td><code>your-github-name/your-repo</code></td><td>You</td></tr><tr><td><code>LIVINGCHANGELOG_GITHUB_TOKEN</code></td><td>Read-only GitHub token</td><td>Step 5</td></tr><tr><td><code>LIVINGCHANGELOG_CRON_SECRET</code></td><td>Lets your scheduler run it</td><td>Printed in Step 2</td></tr><tr><td><code>LIVINGCHANGELOG_OWNER_SECRET</code></td><td><strong>Your</strong> key to everything</td><td>Printed in Step 2</td></tr><tr><td><code>LIVINGCHANGELOG_INGEST_SECRET</code></td><td>Lets deploy tools report shipments</td><td>Printed in Step 2</td></tr></tbody></table></div>
+<p><strong>The three secrets, in plain words.</strong> They're long random passwords you made in Step 2, not something a service gives you, and each one opens a different door:</p>
+<ul><li><strong>Cron secret:</strong> the scheduler's key. It can only ask for a normal run.</li><li><strong>Ingest secret:</strong> your deploy tool's key. It can only report &quot;this shipped.&quot;</li><li><strong>Owner secret:</strong> yours alone. It can do dry runs, read the health report, accept suggestions and reset the safety switch.</li></ul>
+<p>If one leaks, generate a new one (<code>node -e &quot;console.log(require('crypto').randomBytes(32).toString('base64url'))&quot;</code>) and replace it. Keep all three different; the health report complains if two match or any is shorter than 32 characters.</p>
+<h3>Step 7. Connect it to your website</h3>
+<p>This is the one step that needs a developer or a coding agent. Hand them <code>examples/worker.ts</code> and the README section &quot;Mount the API&quot; and &quot;Build the public changelog.&quot; When they're done you should have:</p>
+<ul><li>the engine answering at <code>https://your-site.com/api/livingchangelog/...</code></li><li>a <code>/changelog</code> page listing entries, and a page per entry</li><li>optionally <code>/changelog/atom.xml</code> and <code>/changelog/feed.json</code>, so people can subscribe</li></ul>
+<h3>Step 8. Do a dry run</h3>
+<pre><code>curl -X POST &quot;https://your-site.com/api/livingchangelog/tick?dry=1&quot; \
+  -H &quot;Authorization: Bearer YOUR_OWNER_SECRET&quot;</code></pre>
+<p>It does everything a real run does, then stops and shows you the entry it would publish, the evidence behind it and which checks passed. Nothing goes live. If it says it's staying silent, the reason is right there in the response. &quot;Nothing worth publishing yet&quot; is a perfectly good first answer.</p>
+<h3>Step 9. Schedule it</h3>
+<p>It should be called every 15 to 60 minutes. Frequent calls do not mean frequent entries: it stays silent unless something meaningful and proven shipped.</p>
+<ul><li><strong>Cloudflare:</strong> <code>examples/worker.ts</code> already includes a scheduled handler; add a Cron Trigger.</li><li><strong>GitHub Actions</strong> (works anywhere): add <code>.github/workflows/livingchangelog.yml</code>, and add <code>LIVINGCHANGELOG_CRON_SECRET</code> to the repository secrets next to <code>LIVINGCHANGELOG_SITE_URL</code>:</li></ul>
+<pre><code>name: LivingChangelog
+on:
+  schedule: [{ cron: &quot;*/30 * * * *&quot; }]
+  workflow_dispatch:
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST &quot;$SITE/api/livingchangelog/tick&quot; -H &quot;Authorization: Bearer $CRON&quot;
+        env:
+          SITE: ${{ secrets.LIVINGCHANGELOG_SITE_URL }}
+          CRON: ${{ secrets.LIVINGCHANGELOG_CRON_SECRET }}</code></pre>
+<h3>Step 9½. Announce it (optional)</h3>
+<p>Every published entry can also go out as a post. It's built from the entry itself, never rewritten by AI, so it can't say anything the changelog doesn't. Set the env vars for whichever channels you want, on the server like the other secrets:</p>
+<ul><li><strong>Bluesky:</strong> your handle (like <code>yourname.bsky.social</code>) as <code>LIVINGCHANGELOG_BLUESKY_HANDLE</code>, and an <strong>app password</strong> (Bluesky, Settings, Privacy and security, App passwords; never your real password) as <code>LIVINGCHANGELOG_BLUESKY_APP_PASSWORD</code>.</li><li><strong>Mastodon:</strong> your instance address (like <code>https://mastodon.social</code>) as <code>LIVINGCHANGELOG_MASTODON_URL</code>, and an access token (Preferences, Development, New application, with the <code>write:statuses</code> permission) as <code>LIVINGCHANGELOG_MASTODON_TOKEN</code>.</li><li><strong>X:</strong> create an app in the X developer portal with read and write permission, then copy the four keys it shows (API key and secret, access token and secret) into <code>LIVINGCHANGELOG_X_API_KEY</code>, <code>LIVINGCHANGELOG_X_API_SECRET</code>, <code>LIVINGCHANGELOG_X_ACCESS_TOKEN</code> and <code>LIVINGCHANGELOG_X_ACCESS_SECRET</code>. Generate the access token <strong>after</strong> setting write permission, or posting will be refused.</li><li><strong>Discord:</strong> channel settings, Integrations, Webhooks, New webhook, copy the URL into <code>LIVINGCHANGELOG_DISCORD_WEBHOOK_URL</code>.</li><li><strong>Slack:</strong> create an incoming webhook for a channel and put its URL in <code>LIVINGCHANGELOG_SLACK_WEBHOOK_URL</code>.</li></ul>
+<p>Then do a dry run (Step 8): the response includes the exact text of each post. If you'd like a few minutes to catch a mistake before anything goes out, add <code>&quot;announce&quot;: { &quot;delayMinutes&quot;: 15 }</code> to your config. If a channel keeps failing (expired token, wrong permission), the health report says which one and why, and the changelog itself keeps working.</p>
+<h3>Step 10. Check its pulse</h3>
+<pre><code>curl &quot;https://your-site.com/api/livingchangelog/health&quot; -H &quot;Authorization: Bearer YOUR_OWNER_SECRET&quot;</code></pre>
+<p>You want <code>&quot;healthy&quot;: true</code>. If not, <code>findings</code> lists exactly what's wrong in plain words. After the first few runs, <code>receipts.valid</code> should also be <code>true</code>.</p>
+<p>That's it. Check the health report now and then for the first week, and read the first few entries it publishes.</p>
+<h3>When something looks wrong</h3>
+<div class="table"><table><thead><tr><th>What you see</th><th>What it usually means</th><th>What to do</th></tr></thead><tbody><tr><td>Always silent, &quot;No pending release evidence&quot;</td><td>It isn't receiving anything</td><td>Check the GitHub repo name and token, or that your deploy step is sending evidence</td></tr><tr><td>&quot;Holding change until shipping is proven&quot;</td><td>It saw the merge but no production deploy or release</td><td>Add the deploy step from Step 5, publish GitHub releases, or (if merging really means live for you) set <code>shippingPolicy</code> to <code>merge-to-production-is-live</code></td></tr><tr><td>&quot;Recent changelog entry exists; holding&quot;</td><td>It's bundling small changes on purpose</td><td>Normal. Lower <code>minHoursBetweenEntries</code> if you want entries sooner</td></tr><tr><td>&quot;Reviewers judged the entry unhelpful&quot;</td><td>The change was real but not interesting to readers</td><td>Normal. It'll bundle it with something bigger</td></tr><tr><td><code>401 unauthorized</code></td><td>Wrong secret for that action</td><td>Health, dry runs and resets need the owner secret</td></tr><tr><td><code>429 slow down</code></td><td>Too many calls in a minute</td><td>Wait a minute; check nothing is calling it in a loop</td></tr><tr><td>&quot;GitHub rate limit reached&quot;</td><td>No GitHub token, or it's used up</td><td>Set <code>LIVINGCHANGELOG_GITHUB_TOKEN</code></td></tr><tr><td>&quot;Circuit breaker open&quot;</td><td>Several runs in a row failed (often an AI account out of credit)</td><td>Fix the cause, then reset it: <code>curl -X POST .../api/livingchangelog/reset -H &quot;Authorization: Bearer YOUR_OWNER_SECRET&quot;</code></td></tr><tr><td>&quot;Announcement to bluesky ... failed&quot;</td><td>A channel's password or token is wrong or expired</td><td>Fix that channel's env vars; new entries will post normally</td></tr><tr><td><code>receipts.valid: false</code></td><td>Someone edited or deleted its history</td><td>This should never happen. Find out who has database access</td></tr></tbody></table></div>
+<hr>
+<h2>Part 2: How it thinks</h2>
+<h3>What it does on a normal tick</h3>
+<ol><li>Pull new source evidence and deduplicate it.</li><li>Drop deterministic garbage before paying a model: ignored labels, dependency/chore patterns, non-publishable kinds.</li><li>Optionally audit an old entry instead of writing a new one.</li><li>Respect the bundling window after the most recent entry.</li><li>Triage pending evidence into <strong>ignore</strong>, <strong>hold</strong>, or <strong>publish</strong>.</li><li>Prove shipping before customer-facing availability language is allowed.</li><li>Draft a compact release note from only the selected evidence + your stable product facts.</li><li>Run the deterministic immune screen.</li><li>Let Reader and Skeptic independently judge usefulness and factual support.</li><li>Permit one repair pass.</li><li>Publish only if the final fitness gates pass; otherwise record silence.</li><li>Seal the run into the receipt chain either way.</li></ol>
+<h3>The important distinction: activity vs. shipping</h3>
+<p>A commit means code changed. A merged pull request means code was accepted. Neither necessarily means a user can access the change.</p>
+<p>The recommended <code>explicit-only</code> policy requires a release, successful deployment, or explicit manual-live event before normal public copy can imply that a change is live.</p>
+<p>That single rule prevents a large class of embarrassing changelog lies.</p>
+<h3>Evidence states</h3>
+<ul><li><strong>pending</strong> — the publisher can still use it.</li><li><strong>used</strong> — it supported a published entry.</li><li><strong>ignored</strong> — it was intentionally removed from consideration with a reason.</li></ul>
+<p>Holding does not change the state; the evidence remains pending so it can bundle with later related work.</p>
+<h3>Silence is normal</h3>
+<p>Silence can mean:</p>
+<ul><li>no new evidence</li><li>only chores/refactors/dependency work arrived</li><li>the change is too small and is being held for a bundle</li><li>code changed but shipping has not been proven</li><li>the reviewers found the entry unhelpful or unsupported</li><li>the quality floor was not met</li></ul>
+<p>The machine is not paid by the post.</p>
+<h3>Corrections</h3>
+<p>LivingChangelog periodically re-reads older entries against later evidence and current product facts. It is conservative about history: something that was true when published does not become “wrong” just because the product later changed.</p>
+<p>When an amendment is actually needed, the corrected body must pass:</p>
+<ol><li>the deterministic immune gate, and</li><li>an independent Correction Skeptic that checks newly introduced/changed claims against original evidence, later evidence, and current product facts.</li></ol>
+<p>Accepted amendments append a dated public correction note. Rejected amendments leave the public entry untouched.</p>
+<h3>DREAM</h3>
+<p>DREAM looks at publication/rejection/readership history and can propose strategy adjustments. It <strong>never edits its own configuration</strong>. The owner must explicitly accept a proposal.</p>
+<h3>NEXUS + breaker</h3>
+<p>NEXUS moves between configured model providers when one is unavailable or rate limited. Repeated total failures trip the circuit breaker so the publisher stops burning calls while infrastructure is unhealthy.</p>
+<h3>Receipts</h3>
+<p>Every tick—published, silent, blocked, audited, repaired, errored—is canonicalized and hash-chained to the previous run. The database refuses a second child for the same parent hash. Health verifies the stored chain all the way back to <code>GENESIS</code>.</p>
+<p>This is an integrity signal, not a blockchain. It detects mutation/deletion/forking inside the stored ledger; it does not magically make the underlying evidence source trustworthy.</p>
+<h3>What you control</h3>
+<p>Everything product-specific lives in <code>livingchangelog.config.json</code>:</p>
+<ul><li>product/site/changelog naming</li><li>audience and voice</li><li>stable product facts</li><li>forbidden/retired claims</li><li>public categories</li><li>shipping policy + production branch</li><li>source ignore rules</li><li>developer-only publication policy</li><li>word targets</li><li>quality floors</li><li>cadence/audit timing</li><li>breaker and rate limits</li></ul>
+<h3>Before letting it publish (recap)</h3>
+<p>Use an owner dry run:</p>
+<p><code>POST /api/livingchangelog/tick?dry=1</code></p>
+<p>A dry run can pull/inspect evidence and show the complete proposed entry plus gate results, but it does not publish or consume the selected evidence.</p>
+<p>Then check:</p>
+<p><code>GET /api/livingchangelog/health</code></p>
+<p>You want no config/secret/breaker findings and a valid receipt chain once runs exist.</p>
+<h3>Choosing a voice</h3>
+<p>LivingChangelog can sound plain, friendly, dry or technical. The voice only changes the wording. It still can't claim anything the evidence doesn't prove, and the dry voice never jokes about security issues or bugs that hurt people. Try them side by side before you choose:</p>
+<pre><code>npx livingchangelog preview --repo your/repo --voice friendly
+npx livingchangelog preview --repo your/repo --voice dry</code></pre></div></section><section id="source-4" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 4</span><h2>LivingGuide <small>v1.0.2</small></h2></div><div class="meta">2,114 words<br>module</div></div><div class="provenance">modules/livingguide/FOUNDERS-GUIDE.md<br><span class="hash">sha256 7f9e7e43b7eb52cac0f2e8caad0f2ca4c6340e9c6082210df68a96b9718c8b19</span></div><div class="body"><h2>LivingGuide — Founder's Guide</h2>
+<p><strong>Canonical status:</strong> v1.0.2 package archive<br><strong>Truth posture:</strong> evidence-first; estimates and unknowns are labeled<br><strong>Creator:</strong> Kenneth E. Sweet Jr. (Solo Founder / Infrastructure Architect)<br><strong>Product thesis:</strong> <strong>Your project remembers itself.</strong></p>
+<p>This guide follows the same 18-section Founder Archive that LivingGuide's own <code>founder</code> preset produces, so the product is documented by its own standard. It does not claim users, revenue, deployments or market validation, because nothing in this package proves them.</p>
+<h3>Status legend</h3>
+<ul><li><strong>Confirmed:</strong> present in source, configuration or package metadata, or proven by the shipped self-test.</li><li><strong>Observed:</strong> present in the repository but not proven to be deployed anywhere.</li><li><strong>Inferred:</strong> a reasonable reading of the architecture, not implementation proof.</li><li><strong>Planned / Speculative:</strong> stated direction, not shipped behavior.</li><li><strong>Unknown:</strong> the package does not establish the answer.</li></ul>
+<hr>
+<h2>1. Executive Summary</h2>
+<p>Projects forget themselves long before their source code disappears. The missing pieces are usually intent, decision rationale, current-state truth, abandoned approaches, ecosystem relationships, roadmap context and the difference between what was planned and what actually existed.</p>
+<p>LivingGuide exists to keep that institutional memory alive without pretending uncertainty is knowledge.</p>
+<p><strong>Confirmed:</strong> LivingGuide 1.0.2 scans a project, extracts source-backed claims into a persistent claim/evidence graph, audits that graph with deterministic rules and an adversarial model pass, renders an Owner's Manual from whatever survives, and runs a Resurrection Test that asks whether a future operator could safely pick the project back up. The self-test reports 104 passed, 0 failed with no keys and no network.</p>
+<p><strong>Current maturity:</strong> functional engine with local and PostgreSQL storage, a CLI and a passing suite. <strong>Unknown:</strong> npm publication, production use, outside adopters.</p>
+<h2>2. Canonical Identity</h2>
+<ul><li><strong>Official name:</strong> LivingGuide</li><li><strong>Package name:</strong> <code>livingguide</code></li><li><strong>CLI:</strong> <code>livingguide</code>, also reachable as <code>living guide</code> inside Living Master Library</li><li><strong>Version:</strong> 1.0.2 (1.0.0 released 2026-10-01)</li><li><strong>Tagline:</strong> Your project remembers itself.</li><li><strong>License:</strong> MIT</li><li><strong>Shared substrate:</strong> vendored <code>livingcore</code> 1.0.0</li></ul>
+<p><strong>Confirmed:</strong> <code>package.json</code> names the author as Kenneth E. Sweet Jr. (kesjr.com) and points to the single family repository, <code>SweetKenneth/living</code>, under <code>modules/livingguide</code>. <strong>Unknown:</strong> whether that repository is public yet.</p>
+<h2>3. Project Classification</h2>
+<p><strong>Confirmed:</strong> a zero-runtime-dependency TypeScript engine (about 1,700 lines across <code>engine/</code>, <code>adapters/</code>, <code>cli/</code> and <code>presets/</code>) with a local CLI, a programmatic API and two storage backends.</p>
+<p><strong>Inferred:</strong> the category is closer to an archival system than a documentation tool. A README generator answers &quot;what does this do&quot;; LivingGuide is built to answer &quot;what is true about this project, how do we know, and what would be lost if the creator vanished.&quot;</p>
+<h2>4. Core Concept</h2>
+<h3>Why the manual is not the source of truth</h3>
+<p>A static manual rots. Regenerating a static manual from scratch creates a different problem: the model can rewrite history each time.</p>
+<p>LivingGuide therefore stores a claim/evidence graph first. The rendered Owner's Manual is a versioned view over that graph. Every strong claim must carry provenance. Changed source contaminates old certainty. Unknowns remain visible.</p>
+<h3>Product roles</h3>
+<p><strong>ARCHIVIST</strong> discovers and normalizes durable claims from project evidence.</p>
+<p><strong>AUDITOR</strong> tries to falsify certainty, find contradictions, expose continuity gaps and prevent valuation/roadmap/technical-maturity hype from becoming canonical truth.</p>
+<p><strong>CURATOR</strong> turns the surviving truth model into the appropriate human-facing dossier.</p>
+<p>The roles share evidence but not incentives.</p>
+<h2>5. Full Feature Inventory</h2>
+<h3>5.1 Truth statuses: Confirmed</h3>
+<p>Every claim carries one of eight statuses: <code>confirmed</code>, <code>observed</code>, <code>inferred</code>, <code>planned</code>, <code>speculative</code>, <code>unknown</code>, <code>needs_confirmation</code>, <code>requires_audit</code>, plus a confidence, evidence references, exact quotes, first-seen and last-verified timestamps, a stale flag and contradictions.</p>
+<h3>5.2 Exact-quote evidence gate: Confirmed</h3>
+<p>A claim marked <code>confirmed</code> or <code>observed</code> must quote text that actually exists in an active source artifact (whitespace and case normalized). If no quote survives, the claim drops to <code>needs_confirmation</code> and its confidence is capped at 0.49. A <code>confirmed</code> claim below the confidence floor (0.8 by default) drops to <code>observed</code>. The model cannot waive this; the rule runs in code after the model answers.</p>
+<h3>5.3 Source drift contamination: Confirmed</h3>
+<p>When a source file changes or disappears, every claim citing it is marked stale and downgraded to <code>requires_audit</code> until it is re-established. Old certainty never quietly survives new evidence.</p>
+<h3>5.4 Deterministic audit: Confirmed</h3>
+<p>Before any model is consulted, the claim ledger is checked for unsupported certainty, confidence below the floor, stale claims, orphaned or deleted sources, quotes that no longer exist in the source, obvious yes/no contradictions and sections with no supporting claims. The rendered manual is then checked for assistant/meta phrasing, anything shaped like a credential, overconfident language and the absence of any visible uncertainty.</p>
+<h3>5.5 The Resurrection Test: Confirmed</h3>
+<p>The defining quality gate asks a deliberately uncomfortable question: if the creator vanished and a capable operator returned years later with only the project and this archive, could they safely continue?</p>
+<p>LivingGuide tests for purpose, build/run procedures, deployment state, state/data location, subsystem relationships, unfinished work, architecture rationale, protected invariants, next work, stale assumptions, secure-access recovery and safe resumption guidance.</p>
+<p>A missing answer is preserved as a continuity defect. That defect is more valuable than an invented answer.</p>
+<p><strong>Confirmed mechanics:</strong> the deterministic pass scores those twelve areas against claims that are neither stale nor unknown. It passes at 75 or above, and only if none of four critical areas is missing: build/run, data/state location, major subsystems, and secure access recovery. A model pass can add notes and defects on top.</p>
+<h3>5.6 Presets as lenses: Confirmed</h3>
+<p><code>founder</code> (the full 18-section archive), <code>engineering</code>, <code>operator</code>, <code>acquisition</code> and <code>custom</code> all render from the same truth model. Presets do not create competing truths.</p>
+<h3>5.7 Security handling: Confirmed</h3>
+<p><code>.env</code>, key, credential and token-named files are skipped by the scanner. Likely secrets inside readable files are redacted before they reach persistent state or a model. Generated output is scrubbed again. The PostgreSQL schema creates no anonymous read policy.</p>
+<h3>5.8 Storage, receipts and outputs: Confirmed</h3>
+<p>Atomic local JSON state or PostgreSQL via PostgREST. Run receipts are hash-chained through <code>livingcore</code>, so edited, deleted or forked run history is detectable. Each build writes <code>OWNER-MANUAL.md</code>, a print-ready <code>owner-manual.html</code>, <code>GUIDE-AUDIT.md</code> and <code>RESURRECTION-TEST.md</code>. Old editions stay in state.</p>
+<h3>5.9 What runs without a model: Confirmed</h3>
+<p><code>scan</code>, <code>status</code>, the deterministic audit and the deterministic Resurrection Test need no AI provider. <code>build</code> deliberately refuses to fabricate a manual without one.</p>
+<h2>6. Architecture Analysis</h2>
+<pre><code>source artifacts
+      │
+      ▼
+  ARCHIVIST ──────► claim/evidence graph
+                         │
+                         ▼
+                      AUDITOR
+                         │
+             downgrade / flag / preserve
+                         │
+                         ▼
+                      CURATOR
+                         │
+          ┌──────────────┴──────────────┐
+          ▼                             ▼
+   canonical Markdown            PDF-ready HTML
+          │
+          ▼
+    Resurrection Test</code></pre>
+<h3>Strengths</h3>
+<ul><li>The truth rules live in code, not in prompts. A model can propose; it cannot promote.</li><li>Incremental builds re-extract only changed sources, and contamination makes the cost of change visible.</li><li>The engine is honest about its own floor: it would rather print <code>Unknown</code> than fill a gap.</li></ul>
+<h3>Weaknesses / technical debt</h3>
+<ul><li><strong>Observed:</strong> the deterministic Resurrection Test is lexical. It checks whether usable claims contain words associated with each area (for example &quot;run&quot;, &quot;install&quot;, &quot;npm&quot; for build/run). A project can satisfy it with vocabulary rather than substance; the model pass is what catches that. The number should be read as a coverage signal, not proof of resumability.</li><li><strong>Observed:</strong> evidence is limited to each file's excerpt (24,000 characters by default). Facts that only appear later in a large file cannot be quoted, so they cannot become Confirmed. Truncation is recorded in artifact metadata but not yet surfaced in the manual.</li><li><strong>Observed:</strong> the deterministic contradiction detector only catches exact negations (&quot;X is Y&quot; against &quot;X is not Y&quot;). Semantic conflicts depend on the AUDITOR model.</li></ul>
+<h2>7. Strategic Ecosystem Role</h2>
+<p>LivingGuide is designed as a sibling built on <code>livingcore</code>. It can coexist with other living systems without coupling their databases or prose. A release-history system can become evidence; a technical documentation system can become evidence; the canonical guide remains responsible for institutional/project truth.</p>
+<p><strong>Confirmed:</strong> inside Living Master Library it is the module that owns durable project knowledge, and its 18-section Founder Archive is the format the Library's own Founder's Guide follows.</p>
+<p><strong>Inferred:</strong> it is the most general member of the family. LivingDocs, LivingChangelog and LivingRoadmap each guard one truth surface; LivingGuide is where their outputs could be consumed as evidence about the whole project.</p>
+<h2>8. Development History</h2>
+<ul><li><strong>2026-10-01, 1.0.0:</strong> initial release with the truth model, quote gate, contamination, presets, the three-role build, Resurrection Test, HTML renderer, scanner, redaction, JSON and PostgreSQL storage, receipts and CLI.</li><li><strong>1.0.1:</strong> this Founder's Guide, expanded from a short thesis into the full archive format. No engine behavior changed.</li><li><strong>1.0.2:</strong> first self-run. Pointed at Living Master Library, the scanner walked the Library's <code>.living/</code> directory, so a previous edition, its own state file or the project config could become evidence for the next build. The scanner now skips <code>.living/</code> as well as <code>.livingguide/</code>. Author identity filled in package metadata.</li></ul>
+<p><strong>Unknown:</strong> ideation history before 1.0.0 is not recorded in the repository.</p>
+<h2>9. Current State Assessment</h2>
+<p><strong>What works, Confirmed:</strong> every feature in section 5, exercised by 104 passing self-tests covering quote enforcement, uncertainty downgrades, source drift, secret handling, incremental sync, the full multi-phase build, audit and resurrection flow, HTML safety, persistent state, receipt tamper detection and vendored-core integrity.</p>
+<p><strong>Incomplete or unknown:</strong> registry publication, production deployments, real-world accuracy on large repositories, and how the deterministic Resurrection score correlates with an actual handoff.</p>
+<p><strong>Estimated maturity, Inferred:</strong> beta-quality engine. The core rules are tested; the product has not yet been proven on outside projects.</p>
+<h2>10. Monetization Analysis</h2>
+<p><strong>Inferred:</strong> the clearest buyers are people who carry continuity risk: solo founders, agencies handing projects to clients, and anyone preparing a project for sale, transfer or long dormancy. The <code>acquisition</code> preset already points at due diligence.</p>
+<p><strong>Speculative:</strong> a hosted continuity archive with signed, exportable editions could be priced per project. No pricing, customers or revenue exist today.</p>
+<h2>11. Competitive Positioning</h2>
+<p><strong>Inferred:</strong> README and wiki generators produce prose; LivingGuide produces a claim ledger with provenance, and treats the prose as disposable. Its distinct claim is that it refuses to upgrade certainty and records what it cannot answer. No comparative benchmark has been run.</p>
+<h2>12. Future Vision</h2>
+<p>v1 is intentionally strongest on textual project evidence: repositories, configuration, schemas, docs and supplied creator/research notes. Images/screenshots should be converted to explicit textual observations before ingestion. External competitive research is not silently performed or treated as source truth by the local engine.</p>
+<p>That boundary keeps the first version auditable.</p>
+<p>The natural extensions are richer source adapters, claim-history visualization, decision records, diagram synthesis from the truth graph, signed/exportable continuity packages, and selective reconciliation with live infrastructure. Those are directions, not claims about current implementation.</p>
+<h2>13. Priority Roadmap</h2>
+<p><strong>Planned / Speculative:</strong></p>
+<ol><li>Publish the <code>SweetKenneth/living</code> repository and decide on registry publication.</li><li>Surface truncated sources in the manual so missing evidence is visible, not silent.</li><li>Make the Resurrection Test require cited claims per area instead of keywords alone.</li><li>Accept LivingDocs, LivingChangelog and LivingRoadmap outputs as first-class evidence sources.</li></ol>
+<h2>14. Risk Analysis</h2>
+<ul><li><strong>Technical:</strong> lexical resurrection scoring can overstate readiness; excerpt limits can understate it.</li><li><strong>Product:</strong> a strict gate produces manuals full of <code>Unknown</code> on thin repositories, which is correct but can read as failure to a first-time user.</li><li><strong>Security:</strong> the tool handles owner-level material. Redaction is pattern-based, so a secret in an unusual format could reach state. The README already says not to treat LivingGuide as a secret manager.</li></ul>
+<h2>15. Preservation &amp; Continuity</h2>
+<p>To resume this product: run <code>npm test</code> (expect 104 passed, 0 failed), then <code>livingguide scan</code> and <code>livingguide status</code> on any project; neither needs keys. A model key is only needed for <code>build</code>. Engine rules live in <code>engine/truth.ts</code>, <code>engine/audit.ts</code> and <code>engine/resurrection.ts</code>. Do not edit the vendored <code>core/</code> files; change <code>livingcore</code> and re-sync, and Living Master Library's doctor will flag any divergence.</p>
+<h2>16. Strategic Importance Ranking</h2>
+<p><strong>Inferred:</strong> high within the family. It is the module whose output the others feed, and the one whose format the family already uses for its own memory.</p>
+<h2>17. Recommended Next Actions</h2>
+<ol><li>Finish the self-run on Living Master Library with a model key (scan already ran; it found the <code>.living/</code> bug fixed in 1.0.2) and compare the generated manual to this guide.</li><li>Ship the truncation notice and the cited-claims resurrection rule before wider release.</li><li>Add one real outside project as a public example edition.</li></ol>
+<h2>18. Canonical Summary</h2>
+<p>LivingGuide keeps a project's memory as claims with evidence, not as prose. It downgrades anything it cannot quote, contaminates anything whose source changed, and records gaps as defects instead of filling them. Version 1.0.1 is a tested engine with known limits in how it scores resumability and how much of each file it can see. Everything beyond that, including adoption and value, is still unknown.</p></div></section><section id="source-5" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 5</span><h2>LivingDocs <small>v1.0.2</small></h2></div><div class="meta">7,473 words<br>module</div></div><div class="provenance">modules/livingdocs/FOUNDERS-GUIDE.md<br><span class="hash">sha256 53782f7a6c85c9e873843e8dfdd20c10bdda737e68256ef3d94e8f2a3a9b63ff</span></div><div class="body"><h2>LivingDocs — Canonical Founder’s Guide</h2>
+<p><strong>Canonical Owner’s Manual &amp; Strategic Intelligence File</strong><br><strong>Edition:</strong> 1.0.2 documentation archive<br><strong>Audit date:</strong> 2026-10-02<br><strong>Product:</strong> LivingDocs<br><strong>Product thesis:</strong> <strong>Documentation that stays true.</strong></p>
+<p><strong>Kenneth E. Sweet Jr.</strong><br>Solo Founder · Infrastructure Architect<br>PromptFluid@gmail.com · KESJR.com<br>Abilene, Texas 79605</p>
+<hr>
+<h3>Document Status &amp; Truth Legend</h3>
+<p>This Founder’s Guide is a human-readable canonical archive for LivingDocs itself. It is based primarily on the LivingDocs 1.0.x repository supplied with the product bundle, including source code, configuration, tests, schema, README, product guide, package metadata, installer, and vendored <code>livingcore</code> manifest.</p>
+<p>The following labels are used deliberately:</p>
+<ul><li><strong>Confirmed</strong> — directly supported by current repository evidence and, where applicable, passing tests.</li><li><strong>Observed in code/docs</strong> — present in source or project documentation, but not independently proven in a live deployment.</li><li><strong>Inferred</strong> — a reasonable architectural or strategic interpretation of confirmed implementation.</li><li><strong>Planned</strong> — explicitly described as future direction, not current capability.</li><li><strong>Speculative</strong> — a possible future or commercial path without current implementation or validation.</li><li><strong>Unknown</strong> — the repository does not contain sufficient evidence.</li><li><strong>Needs creator confirmation</strong> — requires founder context not recoverable from the repository alone.</li><li><strong>Requires further audit</strong> — could be established with additional runtime, market, security, or operational evidence.</li></ul>
+<h4>Source inventory used for this guide</h4>
+<p><strong>Confirmed repository sources include:</strong></p>
+<ul><li><code>README.md</code></li><li><code>LIVINGDOCS-GUIDE.md</code></li><li><code>CHANGELOG.md</code></li><li><code>package.json</code></li><li><code>livingdocs.config.json</code></li><li><code>schema.sql</code></li><li><code>engine/*</code></li><li><code>adapters/*</code></li><li><code>cli/*</code></li><li><code>presets/*</code></li><li><code>install/*</code></li><li><code>examples/*</code></li><li><code>test/selftest.ts</code></li><li><code>core/CORE-MANIFEST.json</code></li><li>vendored <code>core/*</code></li></ul>
+<p><strong>Not available as evidence in this archive:</strong> production telemetry, paid-user data, external benchmarks, customer interviews, revenue records, acquisition offers, security penetration tests, third-party code audits, npm download history, live deployment records, or verified market research.</p>
+<p>Accordingly, this guide makes no claim that those things exist.</p>
+<hr>
+<h2>1. Executive Summary</h2>
+<h3>What the project is</h3>
+<p><strong>Confirmed.</strong> LivingDocs is an evidence-backed documentation maintenance system. It scans project artifacts such as code, configuration, schemas, tests, and existing documentation; converts relevant facts into a persistent documentation truth model; generates documentation editions from that model; audits those editions for drift and unsupported certainty; and records sealed run receipts through vendored <code>livingcore</code> infrastructure.</p>
+<p>LivingDocs deliberately treats documentation as a <strong>projection of project evidence</strong>, not as an independent source of operational truth.</p>
+<h3>Why it exists</h3>
+<p><strong>Confirmed from product thesis and implementation.</strong> Software documentation routinely decays without obvious failure signals. A CLI flag can be renamed while a README continues to describe the old name. An API route can disappear while generated prose remains confident. Defaults can change. Examples can age. Planned behavior can accidentally be described as current behavior.</p>
+<p>LivingDocs exists to make those forms of documentation drift visible and correctable.</p>
+<h3>Problem solved</h3>
+<p>The project addresses five related documentation failures:</p>
+<ol><li><strong>Stale certainty</strong> — old documentation remains authoritative after implementation changes.</li><li><strong>Circular proof</strong> — documentation is treated as proof that another documentation page is correct.</li><li><strong>Silent drift</strong> — evidence changes without invalidating dependent prose.</li><li><strong>Speculative filling</strong> — missing evidence is replaced by plausible generated text.</li><li><strong>Unverifiable maintenance</strong> — teams cannot easily distinguish current, inferred, planned, stale, and unknown documentation claims.</li></ol>
+<h3>Current maturity level</h3>
+<p><strong>Estimate based on repository evidence, not market validation.</strong> LivingDocs 1.0.x is best classified as a <strong>functionally coherent early product / developer tool</strong> rather than a proven production platform.</p>
+<p>Evidence supporting that assessment:</p>
+<ul><li><strong>Confirmed:</strong> complete TypeScript source tree exists.</li><li><strong>Confirmed:</strong> CLI commands exist for <code>init</code>, <code>scan</code>, <code>build</code>, <code>audit</code>, <code>verify</code>, and <code>status</code>.</li><li><strong>Confirmed:</strong> local JSON and PostgREST storage adapters exist.</li><li><strong>Confirmed:</strong> local source scanning, claim extraction workflow, drift propagation, deterministic audits, rendering, verification, and receipt sealing are implemented.</li><li><strong>Confirmed:</strong> self-test reports <strong>108 passed, 0 failed</strong> in the supplied build environment.</li><li><strong>Confirmed:</strong> TypeScript typecheck and distributable build are configured.</li><li><strong>Observed:</strong> package metadata is structured for npm distribution.</li><li><strong>Unknown:</strong> public package publication status.</li><li><strong>Unknown:</strong> production user adoption.</li><li><strong>Unknown:</strong> sustained operation against large real-world repositories.</li><li><strong>Unknown:</strong> real-world false-positive/false-negative rate for claim extraction and drift detection.</li></ul>
+<h3>Strategic importance</h3>
+<p><strong>Inferred.</strong> LivingDocs is strategically important less as a standalone documentation writer and more as a reusable <strong>truth-maintenance surface</strong> built on <code>livingcore</code>. It demonstrates that the shared kernel can maintain a domain-specific truth model, apply deterministic evidence gates, involve model reasoning only where useful, preserve uncertainty, detect drift, and render durable human-facing artifacts.</p>
+<p>Within the broader Living family, LivingDocs occupies the technical-explanation layer:</p>
+<pre><code>LivingPress       -&gt; maintains published/editorial material
+LivingChangelog   -&gt; maintains release/history truth
+LivingGuide       -&gt; maintains institutional/project memory
+LivingDocs        -&gt; maintains technical documentation truth
+livingcore        -&gt; shared reliability and governance substrate</code></pre>
+<p>This relationship is architectural/strategic, not a claim that the products are currently integrated at runtime.</p>
+<h3>Short-term opportunity</h3>
+<p><strong>Inferred.</strong> The shortest path to a stronger product is to prove LivingDocs on several heterogeneous repositories and expose evidence at the claim level. The current engine already has the abstractions needed to ingest, classify, store, audit, and render. Real-world validation is now more valuable than another large feature layer.</p>
+<h3>Long-term vision</h3>
+<p><strong>Planned/Speculative.</strong> A mature LivingDocs could become a continuously reconciled technical documentation system capable of combining repository evidence, schemas, live interfaces, compiler/test feedback, deployment state, and release history. The existing 1.0.x repository names several natural extensions, including executable example verification, language-server/compiler hooks, endpoint probes, multi-page documentation sites, inline provenance, PR drift comments, and cross-product reconciliation.</p>
+<p>Those are future directions, not current capabilities.</p>
+<hr>
+<h2>2. Canonical Identity</h2>
+<h3>Official name</h3>
+<p><strong>Confirmed:</strong> LivingDocs</p>
+<h3>Canonical thesis</h3>
+<p><strong>Confirmed:</strong> <strong>Documentation that stays true.</strong></p>
+<h3>Core principle</h3>
+<p><strong>Confirmed:</strong> “Docs are a projection of reality, not an independent reality.”</p>
+<h3>Alternate names / codenames</h3>
+<p><strong>Unknown.</strong> No alternate codename is established in the current repository.</p>
+<h3>Domain associations</h3>
+<p><strong>Unknown.</strong> No dedicated LivingDocs domain is configured in the repository metadata. <code>package.json</code> currently contains placeholder GitHub repository fields.</p>
+<h3>Creator attribution</h3>
+<p><strong>Creator-provided context:</strong></p>
+<ul><li>Kenneth E. Sweet Jr.</li><li>Solo Founder</li><li>Infrastructure Architect</li><li>PromptFluid@gmail.com</li><li>KESJR.com</li><li>Abilene, Texas 79605</li></ul>
+<p>The package metadata names the author (Kenneth E. Sweet Jr., kesjr.com) as of 1.0.2 and points to the single family repository, <code>SweetKenneth/living</code>, under <code>modules/livingdocs</code>. Whether that repository is public is not established by this package.</p>
+<h3>Creation timeline</h3>
+<p><strong>Confirmed from repository changelog:</strong></p>
+<ul><li><strong>2026-10-02:</strong> LivingDocs 1.0.0 initial release line recorded.</li><li><strong>2026-10-02:</strong> Founder’s Guide / archival documentation patch prepared as 1.0.1.</li><li><strong>2026-10-03:</strong> 1.0.2 scanner fix: the local scanner skips Living Master Library’s <code>.living/</code> directory so generated output and state are never read back as implementation evidence.</li></ul>
+<p>Earlier ideation chronology is not present inside the repository and therefore requires creator confirmation if it is to be preserved canonically.</p>
+<h3>Version lineage</h3>
+<pre><code>livingcore 1.0.0
+      │
+      └── vendored into LivingDocs
+
+LivingDocs 1.0.0
+      │
+      └── initial evidence-backed documentation engine
+
+LivingDocs 1.0.1
+      │
+      └── canonical Founder’s Guide and archival presentation patch
+
+LivingDocs 1.0.2
+      │
+      └── scanner skips the Library’s .living/ control directory</code></pre>
+<p>The <code>livingcore</code> version shown here is based on <code>core/CORE-MANIFEST.json</code> and <code>core/README.md</code>. LivingDocs package version is controlled by <code>package.json</code> and the CLI version constant.</p>
+<hr>
+<h2>3. Project Classification</h2>
+<p>LivingDocs spans several categories simultaneously.</p>
+<div class="table"><table><thead><tr><th>Classification</th><th>Status</th><th>Reasoning</th></tr></thead><tbody><tr><td>Developer tool</td><td><strong>Confirmed</strong></td><td>CLI, repository scanning, generated technical docs, audit/verification workflows</td></tr><tr><td>Documentation system</td><td><strong>Confirmed</strong></td><td>Core product purpose</td></tr><tr><td>AI-assisted system</td><td><strong>Confirmed</strong></td><td>Build path requires model provider for extraction/generation; deterministic operations can run without AI</td></tr><tr><td>Deterministic governance system</td><td><strong>Confirmed</strong></td><td>Evidence gates, drift propagation, audit rules, verification checks, breakers, leases, receipts</td></tr><tr><td>Infrastructure component</td><td><strong>Inferred</strong></td><td>Can function as documentation infrastructure inside a larger development workflow</td></tr><tr><td>SaaS</td><td><strong>Speculative</strong></td><td>No hosted SaaS implementation or billing evidence in current repo</td></tr><tr><td>API product</td><td><strong>Speculative</strong></td><td>Engine exports exist, but no hosted public API product is demonstrated</td></tr><tr><td>Agent framework</td><td><strong>Not the primary classification</strong></td><td>It uses role-oriented model passes but is purpose-built rather than a general agent framework</td></tr><tr><td>Research system</td><td><strong>Partially inferred</strong></td><td>The evidence/provenance approach explores truth-maintenance patterns, but repo presents itself as a product</td></tr><tr><td>Governance</td><td><strong>Confirmed at documentation scope</strong></td><td>It governs what documentation claims are allowed to become authoritative</td></tr><tr><td>Asset</td><td><strong>Confirmed in ordinary sense</strong></td><td>It is a packaged software codebase; no independent financial valuation is established</td></tr></tbody></table></div>
+<hr>
+<h2>4. Core Concept</h2>
+<h3>Core idea</h3>
+<p><strong>Confirmed.</strong> LivingDocs separates <strong>evidence</strong>, <strong>claims</strong>, and <strong>rendered documentation</strong>.</p>
+<p>The system does not begin by asking a model to “write docs.” It first inventories source artifacts, extracts claims, validates those claims against stored evidence, assigns epistemic state and confidence, audits for drift or unsupported certainty, and only then renders a human-readable documentation edition.</p>
+<p>The canonical control flow is:</p>
+<pre><code>SOURCE ARTIFACTS
+  │
+  ├── code
+  ├── tests
+  ├── schemas
+  ├── configuration
+  ├── API descriptions
+  └── existing docs
+  │
+  ▼
+SOURCE SYNC + HASHING
+  │
+  ▼
+EVIDENCE READER
+  │
+  ▼
+TRUTH CLAIM LEDGER
+  │
+  ├── status
+  ├── confidence
+  ├── basis
+  ├── exact source quotes
+  ├── timestamps
+  ├── staleness
+  └── contradictions
+  │
+  ▼
+DRIFT / CLAIM AUDIT
+  │
+  ▼
+CURATOR
+  │
+  ├── Markdown edition
+  └── responsive print-ready HTML
+  │
+  ▼
+RENDERED-DOC AUDIT
+  │
+  ▼
+DOCUMENTATION VERIFICATION
+  │
+  ▼
+SEALED RUN RECEIPT</code></pre>
+<h3>Unique innovation</h3>
+<p>The strongest differentiator visible in v1 is the explicit rule that <strong>documentation cannot automatically prove implementation behavior</strong>.</p>
+<p><code>engine/truth.ts</code> includes logic that downgrades a behavior-like <code>confirmed</code> claim to <code>requires_audit</code> when all supporting artifacts are documentation. The behavior-like tags include API, CLI, config, runtime, default, operation, and related categories.</p>
+<p>This prevents a common generated-doc failure mode:</p>
+<pre><code>old README says route exists
+        ↓
+model repeats README
+        ↓
+new generated docs appear “verified”</code></pre>
+<p>LivingDocs instead requires stronger implementation evidence for implementation claims.</p>
+<h3>Technical moat</h3>
+<p><strong>Inferred, not a market claim.</strong> The project’s potential technical defensibility comes from composition rather than any single algorithm:</p>
+<ul><li>claim/evidence separation;</li><li>exact-quote support checks;</li><li>eight-state epistemic model;</li><li>source hashing and incremental reconciliation;</li><li>contamination of claims when supporting evidence changes or disappears;</li><li>deterministic audits before and after generation;</li><li>deterministic verification independent of model availability;</li><li>secret handling before persistence/model context and after generation;</li><li>sealed run receipts;</li><li>reusable adapters and storage interfaces.</li></ul>
+<p>None of these individually proves a commercial moat. The moat would depend on execution quality, integrations, workflow adoption, evidence coverage, and accumulated reliability.</p>
+<h3>Ecosystem moat</h3>
+<p><strong>Speculative/Inferred.</strong> The strongest ecosystem advantage could arise if multiple Living products share evidence while maintaining separate truth responsibilities. For example, LivingChangelog could provide release evidence to LivingDocs, while LivingGuide could consume documentation evidence for institutional continuity. That cross-product relationship is not currently implemented in LivingDocs v1.</p>
+<hr>
+<h2>5. Full Feature Inventory</h2>
+<h3>5.1 Local repository scanning</h3>
+<p><strong>Confirmed.</strong> <code>adapters/local.ts</code> recursively scans a configured project root.</p>
+<p>Current behavior includes:</p>
+<ul><li>deterministic path traversal;</li><li>supported-extension filtering;</li><li>ignored directories including <code>.git</code>, <code>node_modules</code>, build artifacts, virtual environments, and <code>.livingdocs</code>;</li><li>configurable maximum files and maximum file size;</li><li>binary-looking file skipping;</li><li>artifact classification;</li><li>language classification;</li><li>source modification timestamps;</li><li>content hashing;</li><li>excerpt truncation;</li><li>redaction count metadata;</li><li>warnings when scan limits are reached.</li></ul>
+<h3>5.2 Artifact classification</h3>
+<p><strong>Confirmed.</strong> Local files can become these evidence types:</p>
+<ul><li><code>source_code</code></li><li><code>documentation</code></li><li><code>configuration</code></li><li><code>test</code></li><li><code>schema</code></li><li><code>api_schema</code></li><li><code>history</code></li><li><code>asset</code></li><li><code>note</code></li><li><code>manual</code></li></ul>
+<p>OpenAPI/Swagger files, GraphQL files, and Proto files receive <code>api_schema</code> treatment.</p>
+<h3>5.3 Secret-file exclusion</h3>
+<p><strong>Confirmed.</strong> Default policies exclude <code>.env</code> variants and credential/key-like filenames using configurable regular expressions.</p>
+<h3>5.4 In-content secret redaction</h3>
+<p><strong>Confirmed.</strong> The local scanner redacts patterns resembling:</p>
+<ul><li>OpenAI-style keys;</li><li>GitHub tokens;</li><li>AWS access keys;</li><li>private key blocks;</li><li>common password/token/secret assignments.</li></ul>
+<p>Generated output receives a second scrub in <code>engine/engine.ts</code>.</p>
+<p><strong>Important limitation:</strong> regex-based redaction is defensive, not equivalent to a formal secret-scanning platform. Unknown secret formats may not be detected.</p>
+<h3>5.5 Source synchronization</h3>
+<p><strong>Confirmed.</strong> <code>engine/source.ts</code> synchronizes source artifacts into persistent storage and records whether each artifact is inserted, changed, unchanged, or deleted.</p>
+<p>Deleted source is not silently erased from history; its status is changed so dependent claims can be audited.</p>
+<h3>5.6 Incremental change detection</h3>
+<p><strong>Confirmed.</strong> Content hashes allow subsequent builds to focus claim extraction on changed source evidence rather than re-extracting every artifact.</p>
+<h3>5.7 Persistent documentation truth claims</h3>
+<p><strong>Confirmed.</strong> A <code>TruthClaim</code> stores:</p>
+<ul><li>deterministic claim key;</li><li>documentation section;</li><li>statement;</li><li>epistemic status;</li><li>confidence;</li><li>exact source references and quotes;</li><li>evidence basis;</li><li>tags;</li><li>first-seen and last-verified timestamps;</li><li>stale flag;</li><li>creator-confirmation flag;</li><li>contradictions;</li><li>metadata.</li></ul>
+<h3>5.8 Eight epistemic states</h3>
+<p><strong>Confirmed.</strong> LivingDocs supports:</p>
+<ul><li><code>confirmed</code></li><li><code>observed</code></li><li><code>inferred</code></li><li><code>planned</code></li><li><code>speculative</code></li><li><code>unknown</code></li><li><code>needs_confirmation</code></li><li><code>requires_audit</code></li></ul>
+<h3>5.9 Exact evidence requirement</h3>
+<p><strong>Confirmed.</strong> <code>confirmed</code> and <code>observed</code> can be configured to require exact source quotes. Unsupported quote references are discarded during claim sanitization.</p>
+<h3>5.10 Confidence floor</h3>
+<p><strong>Confirmed.</strong> Default <code>verifiedMinConfidence</code> is <code>0.8</code>. A purported <code>confirmed</code> claim below that threshold is downgraded to <code>observed</code>.</p>
+<h3>5.11 Documentation circular-proof protection</h3>
+<p><strong>Confirmed and tested.</strong> Behavior-like claims supported only by documentation cannot remain confirmed implementation truth.</p>
+<h3>5.12 Source-drift contamination</h3>
+<p><strong>Confirmed.</strong> Claims can be located by changed/deleted supporting source IDs and marked stale/requiring audit during reconciliation.</p>
+<h3>5.13 Contradiction detection</h3>
+<p><strong>Confirmed at a basic deterministic level.</strong> <code>truth.ts</code> includes an obvious-contradiction detector using normalized sentence patterns and simple negation transforms.</p>
+<p><strong>Limitation:</strong> this is not a general semantic contradiction theorem prover.</p>
+<h3>5.14 Model-assisted claim extraction</h3>
+<p><strong>Confirmed.</strong> Build execution batches changed artifacts and asks configured model providers to extract structured claims under explicit truth rules.</p>
+<h3>5.15 Model failover</h3>
+<p><strong>Confirmed through vendored <code>livingcore</code>.</strong> <code>Nexus</code> and model adapters provide provider selection/failover behavior.</p>
+<h3>5.16 Deterministic claim audit</h3>
+<p><strong>Confirmed.</strong> The audit layer can identify classes of evidence and certainty defects without depending solely on model output.</p>
+<p>Examples exercised in tests include:</p>
+<ul><li>unsupported certainty;</li><li>orphan/bad source support;</li><li>documentation circular proof;</li><li>stale documentation claims;</li><li>coverage gaps.</li></ul>
+<h3>5.17 Model-assisted forensic audit</h3>
+<p><strong>Confirmed.</strong> LivingDocs can ask a skeptical audit pass to identify deeper issues and normalize those results into structured findings.</p>
+<h3>5.18 Generated-section curation</h3>
+<p><strong>Confirmed.</strong> The engine generates documentation one section at a time, using section-specific requirements and a reconciled claim set.</p>
+<h3>5.19 Documentation presets</h3>
+<p><strong>Confirmed.</strong> Supported presets:</p>
+<ul><li><code>developer</code></li><li><code>api</code></li><li><code>cli</code></li><li><code>operator</code></li><li><code>custom</code></li></ul>
+<p>Presets are views over the same truth model rather than separate source-of-truth databases.</p>
+<h3>5.20 Default Developer edition</h3>
+<p><strong>Confirmed.</strong> Sixteen sections:</p>
+<ol><li>Overview</li><li>Getting Started</li><li>Installation</li><li>Configuration</li><li>Core Concepts</li><li>Architecture</li><li>API Reference</li><li>CLI Reference</li><li>Data Model &amp; State</li><li>Examples</li><li>Operations</li><li>Security</li><li>Troubleshooting</li><li>Migration &amp; Upgrades</li><li>Known Limitations</li><li>Reference Index</li></ol>
+<h3>5.21 Fallback uncertainty rendering</h3>
+<p><strong>Confirmed.</strong> When a section lacks supported evidence, the system can render an explicit “Unknown / requires further audit” fallback instead of filling the gap with plausible content.</p>
+<h3>5.22 Rendered-document audit</h3>
+<p><strong>Confirmed.</strong> After section generation, the final material is audited for issues including secret exposure and assistant/meta leakage.</p>
+<h3>5.23 Documentation Verification</h3>
+<p><strong>Confirmed.</strong> <code>engine/verification.ts</code> contains a deterministic verification suite that asks whether sufficiently supported claims cover areas such as:</p>
+<ul><li>purpose/capability;</li><li>installation/start path;</li><li>configuration/defaults;</li><li>CLI;</li><li>API;</li><li>persistent state;</li><li>architecture;</li><li>examples;</li><li>operations/recovery;</li><li>security;</li><li>limitations;</li><li>visible uncertainty/drift.</li></ul>
+<p>Default deterministic pass logic requires a score of at least 75 and no critical misses in certain operational areas.</p>
+<h3>5.24 Markdown rendering</h3>
+<p><strong>Confirmed.</strong> Canonical Markdown output includes documentation sections plus evidence/health context.</p>
+<h3>5.25 Responsive / print-ready HTML</h3>
+<p><strong>Confirmed and tested.</strong> Renderer tests check mobile CSS, print media rules, page rules, section anchors, and HTML escaping.</p>
+<h3>5.26 Local JSON persistence</h3>
+<p><strong>Confirmed.</strong> <code>adapters/json.ts</code> supports persistent local state, by default under <code>.livingdocs/state.json</code> according to README behavior.</p>
+<h3>5.27 PostgreSQL/PostgREST adapter</h3>
+<p><strong>Confirmed.</strong> The repository includes a PostgREST storage adapter and SQL schema.</p>
+<p><strong>Unknown:</strong> production deployment at scale.</p>
+<h3>5.28 Manual/source adapters</h3>
+<p><strong>Confirmed.</strong> Additional adapters allow manual/project context and alternate source inputs.</p>
+<h3>5.29 CLI</h3>
+<p><strong>Confirmed.</strong> The command surface includes:</p>
+<pre><code>livingdocs init
+livingdocs scan
+livingdocs build
+livingdocs audit
+livingdocs verify
+livingdocs status</code></pre>
+<p><code>--json</code> machine-readable output is documented.</p>
+<h3>5.30 Circuit breaker</h3>
+<p><strong>Confirmed through engine/core usage.</strong> Build execution checks breaker state and can return a <code>tripped</code> outcome until cooldown expires.</p>
+<h3>5.31 Lease control</h3>
+<p><strong>Confirmed through engine/core imports.</strong> Build orchestration uses acquisition/release of leases to reduce conflicting concurrent work.</p>
+<h3>5.32 Tamper-evident run receipts</h3>
+<p><strong>Confirmed and tested.</strong> Build runs are sealed through a receipt chain; tests prove valid chains verify and modified stored run data is detected as tampering.</p>
+<h3>5.33 Vendored-core integrity</h3>
+<p><strong>Confirmed and tested.</strong> <code>CORE-MANIFEST.json</code> is checked so local edits to vendored <code>livingcore</code> files are detectable. Core changes are expected to occur upstream and then be re-synced.</p>
+<h3>5.34 Zero runtime npm dependencies</h3>
+<p><strong>Confirmed from <code>package.json</code>.</strong> <code>dependencies</code> and <code>devDependencies</code> are empty in the supplied package. Build scripts invoke TypeScript through <code>npx</code>.</p>
+<h3>5.35 Automated self-test suite</h3>
+<p><strong>Confirmed by execution on 2026-10-02.</strong> <code>npm test</code> reported:</p>
+<pre><code>LivingDocs self-test: 108 passed, 0 failed</code></pre>
+<p>The test output covers configuration validation, scanning, redaction, claim evidence rules, drift behavior, audits, verification, rendering safety, persistence, CLI parsing/help, receipt integrity, and vendored-core integrity.</p>
+<hr>
+<h2>6. Architecture Analysis</h2>
+<h3>6.1 High-level architecture</h3>
+<pre><code>                        ┌──────────────────────┐
+                        │     Project Root     │
+                        └──────────┬───────────┘
+                                   │
+                                   ▼
+                        ┌──────────────────────┐
+                        │   Source Adapters    │
+                        │ local/manual/etc.    │
+                        └──────────┬───────────┘
+                                   │
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Source Sync + Hashes │
+                        └──────────┬───────────┘
+                                   │
+                         changed evidence only
+                                   │
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Model Claim Extract │
+                        └──────────┬───────────┘
+                                   │
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Claim Sanitization  │
+                        │ exact evidence gate │
+                        └──────────┬───────────┘
+                                   │
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Persistent Truth DB │
+                        │ JSON / PostgREST    │
+                        └──────────┬───────────┘
+                                   │
+                    ┌──────────────┼──────────────┐
+                    ▼              ▼              ▼
+              deterministic    model audit    drift impact
+                 audit                           mapping
+                    └──────────────┬──────────────┘
+                                   ▼
+                        ┌──────────────────────┐
+                        │  Section Curator     │
+                        └──────────┬───────────┘
+                                   ▼
+                  ┌────────────────┴────────────────┐
+                  ▼                                 ▼
+            Markdown edition                 HTML edition
+                  │                                 │
+                  └────────────────┬────────────────┘
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Final Doc Audit      │
+                        └──────────┬───────────┘
+                                   ▼
+                        ┌──────────────────────┐
+                        │ Verification Test    │
+                        └──────────┬───────────┘
+                                   ▼
+                        ┌──────────────────────┐
+                        │ livingcore Receipt   │
+                        └──────────────────────┘</code></pre>
+<h3>6.2 Engine layer</h3>
+<p><strong>Confirmed.</strong> <code>engine/engine.ts</code> is the orchestration center. It is responsible for configuration validation, breaker admission, source synchronization, claim extraction, audits, documentation section generation, verification, persistence, and sealed run completion.</p>
+<h3>6.3 Evidence layer</h3>
+<p><strong>Confirmed.</strong> <code>SourceArtifact</code> is the durable representation of observed project evidence. Content is hashed and paired with classification, path, timestamps, excerpt, byte count, language, and metadata.</p>
+<h3>6.4 Truth layer</h3>
+<p><strong>Confirmed.</strong> <code>TruthClaim</code> is the central semantic entity. This separation is architecturally important because it prevents rendered prose from becoming the state database.</p>
+<h3>6.5 Storage abstraction</h3>
+<p><strong>Confirmed.</strong> Storage is defined behind a port/interface rather than hard-coding one database. Current adapters include local JSON and PostgREST-backed persistence.</p>
+<h3>6.6 Model boundary</h3>
+<p><strong>Confirmed.</strong> Model providers are similarly abstracted. Environment-based model discovery supports multiple provider patterns supplied by <code>livingcore</code>.</p>
+<h3>6.7 Deterministic vs model responsibilities</h3>
+<p>A major architectural strength is that the model is not trusted with all policy decisions.</p>
+<p><strong>Deterministic responsibilities include:</strong></p>
+<ul><li>config validation;</li><li>source hashing;</li><li>exact quote support;</li><li>confidence floors;</li><li>documentation-only behavior downgrade;</li><li>source-drift linkage;</li><li>some contradiction detection;</li><li>secret redaction;</li><li>deterministic audit findings;</li><li>deterministic documentation verification;</li><li>receipt-chain verification;</li><li>vendored-core integrity.</li></ul>
+<p><strong>Model-assisted responsibilities include:</strong></p>
+<ul><li>claim extraction from changed evidence;</li><li>deeper claim audit;</li><li>section prose generation;</li><li>final manual audit;</li><li>supplemental verification judgment.</li></ul>
+<p>This split is one of the strongest architectural decisions in the project.</p>
+<h3>6.8 Fault tolerance</h3>
+<p><strong>Confirmed at application-control level:</strong></p>
+<ul><li>breaker admission can block generation after repeated failure conditions;</li><li>model provider failover is inherited from <code>livingcore</code>;</li><li>source scan errors are collected into a sync report rather than necessarily crashing all source ingestion;</li><li>build can return explicit outcomes such as blocked/tripped;</li><li>claims preserve uncertainty rather than forcing completion.</li></ul>
+<p><strong>Requires further audit:</strong> crash recovery under partial writes, Postgres transaction semantics, concurrency under high parallel load, distributed lease behavior, and failure injection against real providers.</p>
+<h3>6.9 Scalability design</h3>
+<p><strong>Observed/Inferred.</strong> Several choices support moderate scaling:</p>
+<ul><li>incremental hashing avoids full extraction every run;</li><li>extraction batches are configurable;</li><li>source count/file size/excerpt limits are configurable;</li><li>claim limits per batch/section exist;</li><li>adapters separate persistence from engine logic.</li></ul>
+<p><strong>Unknown:</strong> performance on monorepos with tens of thousands of source files, long-running multi-language repositories, very large schemas, or high-frequency CI execution.</p>
+<h3>6.10 Technical debt / limitations</h3>
+<p>Current likely technical debt or boundaries include:</p>
+<ol><li><strong>Repository scanning is text-first.</strong> Binary assets, screenshots, generated diagrams, and rich documents are not deeply interpreted by the local scanner.</li><li><strong>Evidence excerpts are truncated.</strong> Very large source files may contain relevant evidence outside the stored excerpt.</li><li><strong>Contradiction detection is intentionally simple.</strong> Semantic conflicts require model assistance or future stronger logic.</li><li><strong>Example execution is not currently proven.</strong> The system can reason from evidence but does not yet compile/run every generated example.</li><li><strong>No live endpoint probing is shown.</strong> API docs are derived from repository evidence, not runtime probes.</li><li><strong>No language-server/compiler integration is shown.</strong> Static code semantics are not deeply resolved across all languages.</li><li><strong>No multi-page docs site generator is demonstrated.</strong> Current canonical output is Markdown + HTML.</li><li><strong>No browser/UI management console is demonstrated.</strong> Current primary interface is CLI/programmatic engine.</li><li><strong>No external market or package registry integration is built into core behavior.</strong></li><li><strong>Package identity placeholders remain.</strong> GitHub/author fields require release preparation.</li></ol>
+<hr>
+<h2>7. Strategic Ecosystem Role</h2>
+<h3>Relationship to <code>livingcore</code></h3>
+<p><strong>Confirmed.</strong> LivingDocs vendors <code>livingcore</code> and depends on it for cross-cutting reliability primitives. The vendored copy is protected by a manifest integrity check.</p>
+<h3>Relationship to LivingGuide</h3>
+<p><strong>Inferred strategic synergy; not current runtime integration.</strong> LivingGuide maintains institutional memory and canonical project context, while LivingDocs maintains technical explanation. A future bridge could allow:</p>
+<ul><li>LivingDocs architecture/state claims to become evidence for LivingGuide;</li><li>LivingGuide creator decisions to become contextual evidence for LivingDocs concepts/limitations;</li><li>both systems to retain separate truth domains rather than sharing prose blindly.</li></ul>
+<h3>Relationship to LivingChangelog</h3>
+<p><strong>Inferred strategic synergy.</strong> Release evidence can resolve documentation questions such as whether a changed interface has actually shipped. Conversely, documentation drift can identify release-note follow-up requirements.</p>
+<h3>Relationship to LivingPress</h3>
+<p><strong>Lower direct coupling.</strong> LivingPress addresses maintained publishing/editorial surfaces. Shared core primitives are more important than shared content.</p>
+<h3>Shared primitives</h3>
+<p><strong>Confirmed family pattern:</strong></p>
+<ul><li>deterministic truth gates;</li><li>model abstraction/failover;</li><li>receipt chains;</li><li>defensive processing;</li><li>leases;</li><li>breaker behavior;</li><li>Markdown safety;</li><li>vendored-core integrity.</li></ul>
+<h3>Strategic interpretation</h3>
+<p><strong>Inferred.</strong> LivingDocs demonstrates a broader reusable pattern:</p>
+<blockquote><p>Observe reality → establish evidence → make claims → challenge claims → render a human surface → detect drift → repair → preserve history.</p></blockquote>
+<p>That pattern is potentially more important than any one documentation format.</p>
+<hr>
+<h2>8. Development History</h2>
+<h3>Origin</h3>
+<p><strong>Needs creator confirmation for full chronology.</strong> Repository evidence establishes the 2026-10-02 1.0.0 release, but not the complete ideation sequence.</p>
+<h3>Major architectural decisions preserved in code</h3>
+<h4>Decision: documentation is not the truth database</h4>
+<p><strong>Confirmed.</strong> Rendered docs are generated from a persistent claim/evidence model.</p>
+<h4>Decision: changed source invalidates certainty</h4>
+<p><strong>Confirmed.</strong> Claims are mapped back to source artifacts so source drift can mark dependent claims stale.</p>
+<h4>Decision: strong status requires evidence</h4>
+<p><strong>Confirmed.</strong> Exact evidence rules and confidence floors are enforced during claim sanitization.</p>
+<h4>Decision: prose cannot prove behavior merely by repetition</h4>
+<p><strong>Confirmed.</strong> Documentation-only implementation behavior is downgraded.</p>
+<h4>Decision: deterministic policy surrounds AI</h4>
+<p><strong>Confirmed.</strong> Models extract/analyze/generate, but core policy and verification logic remain deterministic where practical.</p>
+<h4>Decision: secrets are scrubbed before and after model generation</h4>
+<p><strong>Confirmed.</strong> Redaction occurs during source ingestion and output normalization.</p>
+<h4>Decision: shared core is vendored, not casually forked</h4>
+<p><strong>Confirmed.</strong> The repository carries a core manifest and a test that detects local core drift.</p>
+<h3>Failed approaches / discarded designs</h3>
+<p><strong>Unknown.</strong> No canonical ADR/history file currently records rejected architectures or failed experiments. This is a preservation gap. Future releases should maintain explicit decision records if those details matter.</p>
+<h3>Lessons inferred from the codebase</h3>
+<ol><li>Generated documentation needs an evidence model, not just prompts.</li><li>“Confirmed” should be machine-constrained, not stylistic language.</li><li>Documentation drift is fundamentally a dependency problem between claims and evidence.</li><li>AI is useful for semantic extraction and curation, but poor as the sole enforcement layer.</li><li>An honest unknown is more operationally useful than an elegant hallucination.</li></ol>
+<p>These are architectural inferences, not quotations from a formal founder note.</p>
+<hr>
+<h2>9. Current State Assessment</h2>
+<h3>What works</h3>
+<p><strong>Confirmed by current source/tests:</strong></p>
+<ul><li>configuration validation;</li><li>local source inventory;</li><li>artifact hashing;</li><li>secret-file skipping;</li><li>content redaction;</li><li>JSON persistence;</li><li>PostgREST persistence adapter;</li><li>claim extraction orchestration;</li><li>evidence quote validation;</li><li>eight-state truth model;</li><li>circular-documentation protection;</li><li>source drift mapping;</li><li>deterministic and model-assisted audits;</li><li>16-section Developer edition;</li><li>API/CLI/Operator/Custom presets;</li><li>Markdown/HTML rendering;</li><li>documentation verification;</li><li>run receipt sealing/verification;</li><li>CLI command parsing/help;</li><li>vendored-core drift checking.</li></ul>
+<h3>What is incomplete</h3>
+<p><strong>Observed/Planned:</strong></p>
+<ul><li>public repository identity placeholders;</li><li>external source adapters beyond the current packaged set;</li><li>live API probing;</li><li>compiler/LSP validation;</li><li>executable example validation;</li><li>PR-level drift comments;</li><li>multi-page docs site output;</li><li>claim-level inline provenance UI;</li><li>direct cross-product reconciliation.</li></ul>
+<h3>Current blockers</h3>
+<p>No fatal code blocker is established by current tests.</p>
+<p>Release/market blockers include:</p>
+<ul><li>package identity placeholders;</li><li>lack of demonstrated external user validation;</li><li>lack of real-repository benchmark corpus;</li><li>no published reliability metrics for extraction/audit precision;</li><li>unknown public distribution/deployment status.</li></ul>
+<h3>Known bugs</h3>
+<p><strong>Unknown.</strong> No open-issue database is included in this archive. Passing self-tests do not establish absence of bugs.</p>
+<h3>Deployment status</h3>
+<p><strong>Unknown.</strong> The repository is package-ready in structure, but no live production endpoint or hosted service is evidenced.</p>
+<h3>Operational readiness</h3>
+<p><strong>Estimate:</strong> suitable for controlled developer use and repository trials; not yet proven for enterprise production operation.</p>
+<h3>Assessment scores</h3>
+<p>These are <strong>founder-archive estimates</strong>, not industry certifications.</p>
+<div class="table"><table><thead><tr><th>Dimension</th><th>Estimate</th><th>Basis</th></tr></thead><tbody><tr><td>Functional maturity</td><td><strong>76/100</strong></td><td>coherent end-to-end workflow, CLI, persistence, tests, rendering; limited real-world validation</td></tr><tr><td>Stability</td><td><strong>82/100</strong></td><td>108/108 self-test, deterministic gates, receipt verification; no long-running production evidence</td></tr><tr><td>Documentation of itself</td><td><strong>88/100</strong></td><td>README, product guide, config, tests, now this Founder’s Guide; package identity still incomplete</td></tr><tr><td>Monetization readiness</td><td><strong>42/100</strong></td><td>product can be packaged, but no pricing, billing, hosted service, adoption proof, or channel validation</td></tr><tr><td>Scalability readiness</td><td><strong>58/100</strong></td><td>incremental architecture and adapters help; no large-scale benchmarks</td></tr><tr><td>Security maturity</td><td><strong>65/100</strong></td><td>thoughtful secret redaction and safe rendering; no external security audit or hardened hosted boundary</td></tr><tr><td>Enterprise readiness</td><td><strong>52/100</strong></td><td>architecture is disciplined; missing SSO/RBAC/observability/compliance/operational proof if sold as hosted enterprise software</td></tr></tbody></table></div>
+<hr>
+<h2>10. Monetization Analysis</h2>
+<h3>Evidence boundary</h3>
+<p>There is <strong>no repository evidence of current LivingDocs revenue, customers, paid pilots, pricing, or validated willingness to pay</strong>.</p>
+<p>Therefore numeric present-value estimates would be fabricated if presented as facts.</p>
+<h3>Plausible business models</h3>
+<p>The following are <strong>strategic options, not current business claims</strong>.</p>
+<h4>Open-source core + paid hosted service</h4>
+<p>Potential paid value:</p>
+<ul><li>managed repository connections;</li><li>scheduled scans;</li><li>hosted truth graph;</li><li>multi-project dashboards;</li><li>PR drift comments;</li><li>team review workflows;</li><li>audit history;</li><li>SSO/RBAC;</li><li>private model routing;</li><li>enterprise retention controls.</li></ul>
+<h4>Team/enterprise CLI license</h4>
+<p>Potentially simpler than SaaS if teams want local/private execution but need premium policy packs, integrations, or support.</p>
+<h4>CI/CD integration</h4>
+<p>A paid GitHub/GitLab/Bitbucket workflow could block merges when documentation truth degrades below policy thresholds.</p>
+<h4>API / evidence service</h4>
+<p>The truth model could become an API consumed by internal developer portals or documentation platforms.</p>
+<h4>Consulting / implementation</h4>
+<p>For early commercialization, implementation services around large documentation estates may produce revenue faster than a mature SaaS platform, but this requires founder willingness and is not a product feature.</p>
+<h3>Fastest path to revenue</h3>
+<p><strong>Estimate:</strong></p>
+<ol><li>validate against 3–5 real repositories;</li><li>publish compelling before/after drift findings;</li><li>package a GitHub-oriented local/CI workflow;</li><li>offer paid setup or team automation;</li><li>only then decide whether hosted SaaS demand justifies infrastructure.</li></ol>
+<h3>Highest upside path</h3>
+<p><strong>Speculative:</strong> enterprise documentation governance integrated with code hosts, CI, API schemas, internal developer portals, and audit/compliance workflows.</p>
+<h3>Lowest effort monetization path</h3>
+<p><strong>Speculative:</strong> paid implementation/support or a commercial license around an otherwise self-hosted package.</p>
+<h3>Valuation scenarios</h3>
+<p><strong>Current present value:</strong> <strong>Unknown / requires external market and transaction evidence.</strong></p>
+<p><strong>Conservative market value:</strong> <strong>Not supportable from repository evidence alone.</strong></p>
+<p><strong>Realistic strategic value:</strong> <strong>Not supportable without user traction, retention, revenue, or comparable transactions.</strong></p>
+<p><strong>Moonshot value:</strong> may become significant if LivingDocs becomes an adopted documentation-governance platform, but assigning a numeric figure now would violate this guide’s truth standard.</p>
+<h4>What would be needed for a defensible valuation</h4>
+<ul><li>public/private adoption counts;</li><li>active repository counts;</li><li>retention;</li><li>paid conversion;</li><li>ARR/MRR;</li><li>gross margin;</li><li>enterprise contract size;</li><li>support burden;</li><li>competitor pricing;</li><li>comparable acquisitions;</li><li>defensible IP or integration advantage;</li><li>benchmarked reliability;</li><li>growth rate.</li></ul>
+<p>Until those exist, valuation should be discussed as <strong>option value</strong>, not proven market value.</p>
+<hr>
+<h2>11. Competitive Positioning</h2>
+<h3>Current evidence</h3>
+<p>The repository does not include a verified competitive research dossier.</p>
+<p>Accordingly, this guide does <strong>not</strong> claim that LivingDocs is first, unique in the entire market, or categorically superior to named competitors.</p>
+<h3>Differentiation that can be described from implementation</h3>
+<p><strong>Confirmed internal differentiation:</strong></p>
+<ul><li>persistent claim/evidence ledger rather than stateless generation;</li><li>epistemic state preserved per claim;</li><li>exact evidence quote support;</li><li>documentation-only proof rejection for implementation behavior;</li><li>incremental drift propagation from changed/deleted source;</li><li>deterministic audit/verification around model work;</li><li>tamper-evident run receipts;</li><li>model-provider abstraction;</li><li>output scrub and safe rendering.</li></ul>
+<h3>Competitive categories requiring research</h3>
+<p>Future research should compare LivingDocs against:</p>
+<ul><li>AI documentation generators;</li><li>docs-as-code platforms;</li><li>internal developer portals;</li><li>API documentation generators;</li><li>code intelligence/documentation assistants;</li><li>knowledge graph systems;</li><li>governance/compliance documentation tooling;</li><li>CI-based documentation linting tools.</li></ul>
+<p>A proper competitor list should be researched at the time of market entry because the category changes quickly.</p>
+<hr>
+<h2>12. Future Vision</h2>
+<h3>Ultimate form</h3>
+<p><strong>Speculative but architecturally consistent.</strong> The ultimate LivingDocs would maintain a live, evidence-backed technical model of a software system and continuously reconcile every published technical explanation against current implementation and runtime reality.</p>
+<p>A peak implementation could incorporate:</p>
+<pre><code>repositories
+    │
+    ├── AST / compiler / LSP evidence
+    ├── tests and coverage
+    ├── OpenAPI / GraphQL / Proto
+    ├── CLI introspection
+    ├── configuration schemas
+    ├── migrations
+    ├── deployment manifests
+    ├── live endpoint probes
+    ├── runtime telemetry
+    ├── release evidence
+    └── human-approved creator context
+            │
+            ▼
+      Documentation Truth Graph
+            │
+      ┌─────┼────────┐
+      ▼     ▼        ▼
+    docs   audit   CI gate
+      │              │
+      ▼              ▼
+ website          PR feedback</code></pre>
+<h3>Confirmed roadmap directions from current product documentation</h3>
+<ul><li>executable example verification;</li><li>language-server/compiler hooks;</li><li>live endpoint probes;</li><li>generated multi-page documentation sites;</li><li>claim-level inline provenance;</li><li>PR comments for drift introduced by a change;</li><li>cross-product reconciliation with LivingChangelog and LivingGuide.</li></ul>
+<h3>Moonshot concepts</h3>
+<p><strong>Speculative:</strong></p>
+<ul><li>multi-repository architecture truth graph;</li><li>runtime-versus-doc contradiction detection;</li><li>automated migration-doc generation from schema/API diffs;</li><li>policy-driven docs gates in CI;</li><li>enterprise “documentation SLO” tracking;</li><li>explainable provenance UI down to source lines/commits;</li><li>self-healing examples verified in isolated sandboxes;</li><li>automated deprecation lifecycle management;</li><li>organization-wide documentation drift heatmaps.</li></ul>
+<hr>
+<h2>13. Priority Roadmap</h2>
+<h3>P0 — Release hygiene</h3>
+<p><strong>Highest leverage / lowest effort.</strong></p>
+<ol><li>Replace repository/author placeholders in <code>package.json</code>.</li><li>Establish canonical repository URL.</li><li>Add explicit versioned release instructions.</li><li>Add real example project fixtures beyond synthetic self-test data.</li><li>Preserve architectural decision records going forward.</li></ol>
+<h3>P1 — Real-world proof</h3>
+<ol><li>Run LivingDocs against several heterogeneous public/private repositories.</li><li>Measure:<ul><li>source count;</li><li>changed-source ratio;</li><li>extraction time;</li><li>claim count;</li><li>false unsupported claims;</li><li>drift findings confirmed by humans;</li><li>verification-score usefulness.</li></ul></li><li>Publish anonymized case studies if permission allows.</li></ol>
+<p>This work is more valuable than adding many new features because it establishes whether the central thesis works outside the self-test harness.</p>
+<h3>P2 — Claim-level provenance UX</h3>
+<p>Expose each documentation paragraph/claim with:</p>
+<ul><li>evidence source;</li><li>evidence quote;</li><li>basis;</li><li>status;</li><li>confidence;</li><li>last verification;</li><li>stale reason.</li></ul>
+<p>This would make the truth model visible rather than hidden behind the generated edition.</p>
+<h3>P3 — CI integration</h3>
+<p>Create a repository workflow capable of:</p>
+<ul><li>scanning on pull requests;</li><li>detecting evidence changes;</li><li>identifying affected docs claims;</li><li>reporting drift;</li><li>optionally failing a policy gate.</li></ul>
+<h3>P4 — Executable verification</h3>
+<p>Prioritize:</p>
+<ul><li>command examples;</li><li>API examples;</li><li>imports/type references;</li><li>config snippets.</li></ul>
+<p>A generated example that compiles/runs is much stronger than a model judging that it looks plausible.</p>
+<h3>P5 — Runtime evidence</h3>
+<p>Add opt-in live probes for environments where runtime truth matters and security boundaries are acceptable.</p>
+<h3>P6 — Cross-Living evidence bridges</h3>
+<p>Only after each sibling has stable interfaces, allow deliberate evidence exchange without merging their truth domains.</p>
+<h3>Creator-energy prioritization</h3>
+<p>For a solo founder, avoid building a full hosted dashboard before validation. The current CLI architecture can prove the product’s value with substantially less operational overhead.</p>
+<hr>
+<h2>14. Risk Analysis</h2>
+<h3>Technical risks</h3>
+<h4>Model extraction quality</h4>
+<p>A model may omit claims, overgeneralize, or misclassify evidence.</p>
+<p><strong>Mitigation already present:</strong> exact quote gates, status downgrades, deterministic audits, visible unknowns.</p>
+<h4>Incomplete source capture</h4>
+<p>Important evidence may live outside supported files or beyond excerpt limits.</p>
+<p><strong>Mitigation:</strong> configurable scanner limits and warnings.<br><strong>Remaining risk:</strong> silent semantic incompleteness if the relevant evidence is not ingested.</p>
+<h4>Circular epistemology</h4>
+<p>Generated docs could otherwise become their own evidence.</p>
+<p><strong>Mitigation already present:</strong> documentation-only behavior cannot remain confirmed.</p>
+<h4>Stale runtime reality</h4>
+<p>Repository evidence does not always equal deployed reality.</p>
+<p><strong>Current limitation:</strong> no live deployment proof layer.</p>
+<h4>Secret leakage</h4>
+<p>Regex redaction cannot guarantee detection of every secret format.</p>
+<p><strong>Mitigation already present:</strong> sensitive-file exclusion + pre-model redaction + post-generation scrub.<br><strong>Recommended:</strong> integrate established secret scanners for enterprise use.</p>
+<h4>Scaling risk</h4>
+<p>Large monorepos may exceed practical batch/context limits.</p>
+<p><strong>Mitigation:</strong> incremental sync, configurable file/excerpt/batch caps.<br><strong>Requires audit:</strong> benchmark at scale.</p>
+<h3>Operational risks</h3>
+<ul><li>provider outages/rate limits;</li><li>state corruption;</li><li>incomplete PostgREST configuration;</li><li>unreviewed automated output;</li><li>false confidence in verification scores;</li><li>unbounded scheduled runs if deployed without cost controls.</li></ul>
+<h3>Financial risks</h3>
+<ul><li>building hosted infrastructure before demand;</li><li>competing in a rapidly evolving AI developer-tool category;</li><li>support burden for many languages/frameworks;</li><li>model cost if large repositories are repeatedly analyzed.</li></ul>
+<h3>Market risks</h3>
+<ul><li>buyers may accept “good enough” generated docs rather than pay for provenance;</li><li>incumbent code-host/docs platforms may add similar drift features;</li><li>trust requirements may slow adoption for autonomous documentation updates.</li></ul>
+<h3>Creator bottleneck risk</h3>
+<p><strong>Inferred.</strong> As a founder-led system family, architecture, product direction, packaging, and cross-product consistency can converge on one person. LivingGuide-style continuity practices and ADRs should be used on LivingDocs itself.</p>
+<h3>Documentation risk</h3>
+<p>Ironically, LivingDocs can itself drift if this Founder’s Guide is not updated with releases. This guide should therefore be treated as an archival snapshot, not magically self-updating prose.</p>
+<hr>
+<h2>15. Preservation &amp; Continuity</h2>
+<h3>What a future operator must understand first</h3>
+<ol><li><strong>The rendered docs are not the source of truth.</strong> The claim/evidence state is.</li><li><strong>Never patch vendored <code>core/</code> casually.</strong> Change <code>livingcore</code> upstream and re-sync.</li><li><strong>Do not weaken exact-evidence gates to make output prettier.</strong> Unknown is an intentional state.</li><li><strong>Do not allow documentation to prove implementation behavior by itself.</strong> This is a central invariant.</li><li><strong>Preserve source-drift history.</strong> Deleted evidence should not disappear silently.</li><li><strong>Keep deterministic policy outside model prompts whenever feasible.</strong> Prompt instructions are not equivalent to enforcement.</li><li><strong>Treat secret handling as defense-in-depth, not a security guarantee.</strong></li></ol>
+<h3>Recovery / resurrection procedure</h3>
+<p>A future operator returning to the project should:</p>
+<pre><code>1. Read README.md and this FOUNDERS-GUIDE.md.
+2. Verify Node runtime compatibility (currently Node &gt;=22.6 in package metadata).
+3. Run npm test.
+4. Run npm run typecheck.
+5. Run npm run build.
+6. Verify core/CORE-MANIFEST.json integrity through tests.
+7. Review CHANGELOG.md.
+8. Replace/verify repository identity placeholders if still present.
+9. Initialize against a disposable test repository first.
+10. Inspect .livingdocs state/output before enabling scheduled automation.
+11. Verify configured model/provider credentials through a secure external vault.
+12. Never place secrets inside documentation or this guide.</code></pre>
+<h3>Secure references</h3>
+<p>This guide intentionally contains no live credentials.</p>
+<p>Use placeholders such as:</p>
+<ul><li><code>[SECURE SECRET REFERENCE: stored outside this document]</code></li><li><code>[ACCESS PROCEDURE: requires creator-controlled vault]</code></li><li><code>[DEPLOYMENT CREDENTIALS: external secret manager]</code></li><li><code>[RECOVERY KEYS: stored in secure estate/continuity channel]</code></li></ul>
+<h3>Dead-man-switch / inheritance considerations</h3>
+<p><strong>Needs creator confirmation.</strong> No actual dead-man-switch mechanism or estate procedure is present in the repository. If desired, preserve these outside the public/software archive in a legally and operationally appropriate channel.</p>
+<h3>Irreplaceable design principles</h3>
+<p>The following principles appear central enough to preserve explicitly:</p>
+<ul><li>evidence before prose;</li><li>uncertainty before fabrication;</li><li>implementation evidence outranks repeated documentation for behavior claims;</li><li>changed evidence contaminates old certainty;</li><li>models assist but do not define truth policy;</li><li>generated material must remain auditable;</li><li>history should be preserved rather than silently rewritten.</li></ul>
+<hr>
+<h2>16. Strategic Importance Ranking</h2>
+<p>These are <strong>internal strategic estimates</strong>, not market ratings.</p>
+<div class="table"><table><thead><tr><th>Dimension</th><th>Estimate</th><th>Reasoning</th></tr></thead><tbody><tr><td>Ecosystem importance</td><td><strong>85/100</strong></td><td>demonstrates a broadly reusable livingcore pattern and technical-truth surface</td></tr><tr><td>Monetization potential</td><td><strong>70/100</strong></td><td>documentation pain is widespread, but willingness-to-pay and differentiation are unvalidated</td></tr><tr><td>Uniqueness of current implementation</td><td><strong>78/100</strong></td><td>unusual combination of provenance, epistemic states, circular-proof rejection, drift, receipts; external market uniqueness not researched</td></tr><tr><td>Defensibility</td><td><strong>55/100</strong></td><td>architecture is thoughtful but reproducible; stronger defensibility requires integrations, data, reliability and adoption</td></tr><tr><td>Long-term importance</td><td><strong>82/100</strong></td><td>technical documentation drift is persistent and compounds as software systems grow</td></tr><tr><td>Emotional importance</td><td><strong>Needs creator confirmation</strong></td><td>cannot be responsibly inferred from code</td></tr><tr><td>Replacement difficulty</td><td><strong>68/100</strong></td><td>codebase is compact enough to rebuild, but exact architecture/truth invariants would take meaningful effort to reproduce faithfully</td></tr></tbody></table></div>
+<hr>
+<h2>17. Recommended Next Actions</h2>
+<h3>Immediate</h3>
+<ol><li>Finalize canonical author/repository metadata.</li><li>Tag 1.0.1 with this Founder’s Guide.</li><li>Run the package against at least one real non-Living repository.</li><li>Save the resulting drift findings and human judgments.</li><li>Add an ADR documenting the “docs cannot prove behavior” invariant.</li></ol>
+<h3>Highest leverage improvements</h3>
+<ol><li>claim-level provenance in rendered output;</li><li>executable example validation;</li><li>GitHub CI/PR integration;</li><li>source adapters for code-host metadata/release evidence;</li><li>benchmark harness across representative repositories.</li></ol>
+<h3>Fastest monetization actions</h3>
+<ol><li>package a polished local/CI proof-of-value workflow;</li><li>demonstrate actual stale-doc findings on real codebases;</li><li>offer paid team setup/support before building a large hosted control plane;</li><li>collect explicit customer pain and pricing feedback.</li></ol>
+<h3>Documentation gaps</h3>
+<ul><li>no formal ADR directory;</li><li>no measured performance benchmark;</li><li>no compatibility matrix across operating systems;</li><li>no production deployment guide for a hosted form;</li><li>no supported-language matrix beyond scanner extension list;</li><li>no real-world case studies;</li><li>no privacy/data-processing policy for hosted use because hosted use is not currently established.</li></ul>
+<h3>Infrastructure priorities</h3>
+<p>Do not add complex infrastructure until external use proves the need. If hosted operation becomes real, prioritize:</p>
+<ul><li>authenticated tenant isolation;</li><li>secret management;</li><li>job queueing;</li><li>cost controls;</li><li>observability;</li><li>storage backups;</li><li>audit retention;</li><li>model egress controls;</li><li>SSO/RBAC for enterprise use.</li></ul>
+<h3>Branding recommendation</h3>
+<p>Retain the simple product thesis:</p>
+<blockquote><p><strong>LivingDocs — Documentation that stays true.</strong></p></blockquote>
+<p>It accurately expresses the implementation without promising autonomous perfection.</p>
+<hr>
+<h2>18. Canonical Summary</h2>
+<p>LivingDocs represents a shift from <strong>documentation generation</strong> to <strong>documentation truth maintenance</strong>.</p>
+<p>Its most important design decision is not the ability to generate Markdown. It is the refusal to let generated prose become reality simply because it sounds correct.</p>
+<p>The project maintains an evidence layer, transforms evidence into explicit claims, assigns uncertainty rather than hiding it, invalidates claims when their support changes, audits the resulting documentation, and preserves a sealed history of system runs.</p>
+<p>That makes the current repository a credible early implementation of a larger idea:</p>
+<blockquote><p>Technical documentation should be able to explain <strong>why it believes what it says</strong> and should know when that belief has become stale.</p></blockquote>
+<p>The product should continue existing if that principle remains useful and if real-world repository trials show that the truth-maintenance layer catches meaningful drift with acceptable noise and cost.</p>
+<p>Its future should not be measured by how much prose it can generate. The meaningful metric is whether engineers can trust it to say:</p>
+<ul><li><strong>this is implemented;</strong></li><li><strong>this is documented but not proven;</strong></li><li><strong>this used to be true;</strong></li><li><strong>this changed;</strong></li><li><strong>this is planned;</strong></li><li><strong>this is unknown;</strong></li><li><strong>this needs a human.</strong></li></ul>
+<p>That is the durable product.</p>
+<hr>
+<h2>Architecture Reference Appendix</h2>
+<h3>Module map</h3>
+<pre><code>LivingDocs
+│
+├── cli/
+│   └── main.ts                  command surface
+│
+├── engine/
+│   ├── engine.ts                orchestration
+│   ├── source.ts                source synchronization
+│   ├── truth.ts                 claim/evidence rules
+│   ├── audit.ts                 deterministic/model finding logic
+│   ├── verification.ts          documentation usability verification
+│   ├── render.ts                Markdown/HTML canonical rendering
+│   ├── prompts.ts               model missions and structured instructions
+│   ├── config.ts                policy/configuration
+│   └── ports.ts                 core domain interfaces/types
+│
+├── adapters/
+│   ├── local.ts                 filesystem scanner
+│   ├── manual.ts                manual/project source
+│   ├── json.ts                  local persistence
+│   ├── postgrest.ts             PostgreSQL/PostgREST persistence
+│   ├── models.ts                model-provider bridge
+│   └── memory.ts                test/in-memory persistence
+│
+├── presets/
+│   └── docs.ts                  documentation mission + section requirements
+│
+├── core/                        vendored livingcore
+│   ├── nexus.ts                 model orchestration
+│   ├── breaker.ts               failure breaker
+│   ├── lease.ts                 concurrency lease
+│   ├── receipts.ts              tamper-evident receipts
+│   ├── defense.ts               defensive primitives
+│   ├── oracle.ts                deterministic utilities/hashing
+│   └── CORE-MANIFEST.json       integrity manifest
+│
+├── schema.sql                   relational persistence schema
+├── livingdocs.config.json       starter config
+├── install/wizard.mjs           setup flow
+└── test/selftest.ts             108-check current self-test</code></pre>
+<h3>Runtime flow</h3>
+<pre><code>CLI / API caller
+    │
+    ▼
+validate configuration
+    │
+    ▼
+breaker admission
+    │
+    ▼
+acquire lease
+    │
+    ▼
+scan + hash source evidence
+    │
+    ├── unchanged -&gt; preserve existing claim context
+    │
+    ├── changed -&gt; stale affected claims + re-extract
+    │
+    └── deleted -&gt; preserve deletion + stale affected claims
+    │
+    ▼
+claim sanitization
+    │
+    ├── exact quote validation
+    ├── confidence floor
+    └── docs-only behavior downgrade
+    │
+    ▼
+deterministic + model claim audit
+    │
+    ▼
+section curation
+    │
+    ▼
+secret scrub + rendering
+    │
+    ▼
+rendered-document audit
+    │
+    ▼
+documentation verification
+    │
+    ▼
+persist edition/findings
+    │
+    ▼
+seal receipt
+    │
+    ▼
+release lease</code></pre>
+<hr>
+<h2>Enterprise Audit Summary</h2>
+<p>This Founder’s Guide has been audited against the current repository with the following corrections and controls applied:</p>
+<h3>What was corrected or constrained</h3>
+<ul><li>No live deployment claim is made.</li><li>No user/revenue/adoption claim is made.</li><li>No unsupported numeric valuation is presented.</li><li>Package publication is treated as unknown.</li><li>“Enterprise-ready” is not claimed; enterprise gaps are stated explicitly.</li><li>Passing self-tests are not equated with absence of bugs.</li><li>Repository evidence is distinguished from runtime reality.</li><li>Future features from product docs are labeled planned/speculative rather than current.</li><li>Security redaction is described as defense-in-depth, not a guarantee.</li><li>Strategic cross-product integrations are labeled as future/inferred rather than implemented.</li></ul>
+<h3>Remaining unknowns</h3>
+<ol><li>Public repository URL and canonical organization/account.</li><li>npm publication status.</li><li>Real-world repository benchmark performance.</li><li>User adoption and retention.</li><li>Pricing and willingness-to-pay.</li><li>Production deployment architecture, if any.</li><li>Formal security assessment.</li><li>Supported OS/runtime matrix beyond package metadata.</li><li>False-positive and false-negative rates of claim extraction/audit.</li><li>Creator-authored history before the 1.0.0 repository state.</li><li>Rejected design alternatives and reasons.</li><li>Desired long-term licensing/commercial model.</li></ol>
+<h3>Final quality assessment of the archive</h3>
+<p>These scores rate <strong>this guide as a continuity artifact</strong>, not the product’s commercial success.</p>
+<div class="table"><table><thead><tr><th>Dimension</th><th>Score</th><th>Notes</th></tr></thead><tbody><tr><td>Truthfulness</td><td><strong>96/100</strong></td><td>unsupported market/runtime claims are deliberately withheld</td></tr><tr><td>Completeness</td><td><strong>90/100</strong></td><td>strong repository coverage; creator history and market evidence remain absent</td></tr><tr><td>Continuity readiness</td><td><strong>92/100</strong></td><td>architecture, invariants, recovery path, risks and priorities are preserved</td></tr><tr><td>Enterprise polish</td><td><strong>88/100</strong></td><td>strong structure and audit discipline; no externally validated enterprise program</td></tr><tr><td>Readability</td><td><strong>90/100</strong></td><td>progressive structure, tables, diagrams, explicit labels</td></tr><tr><td>Technical clarity</td><td><strong>94/100</strong></td><td>core layers and control flow mapped directly to repository modules</td></tr><tr><td>Strategic clarity</td><td><strong>89/100</strong></td><td>roadmap and product-family role preserved without claiming validation</td></tr><tr><td>Future maintainability</td><td><strong>91/100</strong></td><td>module map, invariants and gaps are explicit</td></tr><tr><td>Acquisition readiness</td><td><strong>72/100</strong></td><td>technical packet is useful; commercial metrics, IP diligence, customer data and live operations evidence are absent</td></tr><tr><td>Archival quality</td><td><strong>94/100</strong></td><td>sufficient to reconstruct current intent/architecture if kept versioned with releases</td></tr></tbody></table></div>
+<hr>
+<h2>Preservation Rule</h2>
+<p>This document is a <strong>versioned archive</strong>, not a magical perpetual truth source.</p>
+<p>When LivingDocs materially changes, update this guide by comparing the new repository against this edition. Preserve historical decisions instead of rewriting them out of existence.</p>
+<p><strong>Canonical principle:</strong></p>
+<blockquote><p>If future LivingDocs cannot explain what changed, why it changed, what evidence supports the new behavior, and what remains uncertain, then LivingDocs has violated the standard it was built to enforce for everyone else.</p></blockquote></div></section><section id="source-6" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 6</span><h2>LivingRoadmap <small>v1.0.0</small></h2></div><div class="meta">1,429 words<br>module</div></div><div class="provenance">modules/livingroadmap/FOUNDERS-GUIDE.md<br><span class="hash">sha256 b314fcd6b32ce04f6c204e252364d4fa3e16425fc732897f8b97f4570ae7ca90</span></div><div class="body"><h2>LivingRoadmap — Founder’s Guide</h2>
+<p><strong>Canonical product archive · Version 1.0.0</strong></p>
+<p>LivingRoadmap exists to preserve the relationship between <strong>what a project intends to become</strong> and <strong>what the project is actually becoming</strong>.</p>
+<p>Its product thesis is:</p>
+<blockquote><p><strong>Plans that know when reality changed.</strong></p></blockquote>
+<h3>1. Executive Summary</h3>
+<p>LivingRoadmap is an evidence-aware planning and continuity engine. Traditional roadmaps are manually updated declarations. They commonly drift from implementation: planned items are quietly implemented, abandoned, superseded, or forgotten; unplanned work absorbs engineering energy; and “done” often means different things to different people.</p>
+<p>LivingRoadmap stores roadmap intent as persistent structured state, scans local project evidence, reconciles observed implementation and shipping signals against roadmap items, and produces explicit drift findings. It preserves decision history rather than rewriting the record.</p>
+<p><strong>Confirmed from this repository:</strong> persistent roadmap state; evidence scanning; candidate reconciliation; explicit shipping confirmation; stale/blocked/dependency/duplicate/unplanned-work audits; Markdown/HTML outputs; receipt-chain integrity; 68 local self-tests.</p>
+<p><strong>Unknown from this repository:</strong> external users, revenue, market adoption, public npm publication, production-scale deployment, and acquisition value.</p>
+<h3>2. Canonical Identity</h3>
+<ul><li>Official name: <strong>LivingRoadmap</strong></li><li>Product family: <strong>Living Master Library (LML)</strong></li><li>Shared kernel: <strong>livingcore</strong></li><li>Version: <strong>1.0.0</strong></li><li>Tagline: <strong>Plans that know when reality changed.</strong></li><li>Primary CLI: <code>livingroadmap</code>; under LML: <code>living roadmap</code></li></ul>
+<h3>3. Project Classification</h3>
+<p>Confirmed classifications: developer tool, roadmap intelligence, project continuity, evidence/provenance system, local-first CLI, planning audit system.</p>
+<p>It is not designed as a generic issue tracker, sprint board, or replacement for every PM workflow. Its bounded truth surface is roadmap-vs-reality reconciliation.</p>
+<h3>4. Core Concept</h3>
+<p>The core loop is:</p>
+<pre><code>DECLARE INTENT
+     ↓
+SCAN REALITY
+     ↓
+MATCH EVIDENCE
+     ↓
+SURFACE CANDIDATES
+     ↓
+HUMAN CONFIRMATION WHERE REQUIRED
+     ↓
+PRESERVE DECISION HISTORY
+     ↓
+AUDIT ROADMAP DRIFT</code></pre>
+<p>The key distinction is between <strong>candidate evidence</strong> and <strong>authoritative state</strong>. Source code can show that work exists. Tests can show that behavior is exercised. Release/deployment artifacts can strengthen a shipping claim. But fuzzy local evidence is not allowed to silently convert a plan into “Shipped.”</p>
+<h3>5. Full Feature Inventory</h3>
+<p>Confirmed features:</p>
+<ul><li>structured roadmap items with intent and rationale;</li><li>lifecycle states: planned, active, blocked, shipped, abandoned, superseded, needs confirmation;</li><li>priority, expected value, effort, creator energy, revenue proximity, dependency risk;</li><li>dependencies and blocking relationships;</li><li>target windows and tags;</li><li>local evidence scanning;</li><li>optional Git commit-subject ingestion;</li><li>sensitive-file exclusion and secret redaction;</li><li>implementation candidate detection;</li><li>ship candidate detection;</li><li>explicit human status confirmation;</li><li>stale-intent detection;</li><li>blocked-work reporting;</li><li>missing-dependency detection;</li><li>duplicate-intent detection;</li><li>unplanned-work signals;</li><li>roadmap drift score;</li><li>decision history;</li><li>supersession and shipped-as metadata;</li><li>Markdown roadmap output;</li><li>responsive/printable HTML roadmap output;</li><li>audit and drift reports;</li><li>persistent local JSON storage;</li><li>livingcore tamper-evident run receipts.</li></ul>
+<h3>6. Architecture Analysis</h3>
+<pre><code>project repository
+      │
+      ├── source/tests/config/schema/docs
+      ├── release/deployment artifacts
+      └── local git subjects (optional)
+                 │
+                 ▼
+          Evidence Scanner
+                 │
+                 ▼
+       Persistent Evidence State
+                 │
+roadmap items ───┼──► Reconciliation Engine
+                 │          │
+                 │          ├─ implementation candidate
+                 │          ├─ ship candidate
+                 │          └─ needs confirmation
+                 │
+                 ▼
+            Drift Auditor
+                 │
+         ┌───────┴────────┐
+         ▼                ▼
+   ROADMAP outputs    receipt chain</code></pre>
+<p>Architectural strengths include deterministic matching, no runtime npm dependencies, local-first state, explicit uncertainty, source redaction, and preserved transition history.</p>
+<p>Known limitations include lexical evidence matching rather than semantic embeddings, no hosted collaboration layer, no first-class GitHub/Jira/Linear adapters in v1.0.0, and no deployment-provider attestation adapters. These are limitations, not hidden capabilities.</p>
+<h3>7. Strategic Ecosystem Role</h3>
+<p>Within LML:</p>
+<ul><li>LivingGuide owns durable institutional/project truth.</li><li>LivingDocs owns technical explanation truth.</li><li>LivingChangelog owns shipped-history truth.</li><li>LivingPress owns editorial/publication truth.</li><li><strong>LivingRoadmap owns future intent and intent-vs-reality truth.</strong></li></ul>
+<p>The natural cross-module loop is:</p>
+<pre><code>LivingRoadmap intent
+       ↓
+implementation
+       ↓
+LivingDocs current technical truth
+       ↓
+LivingChangelog shipped proof/history
+       ↓
+LivingRoadmap reconciliation</code></pre>
+<p>Direct automated cross-module evidence exchange is a future integration opportunity unless implemented elsewhere; this repository alone does not claim that integration is complete.</p>
+<h3>8. Development History</h3>
+<p>Version 1.0.0 was created as the fifth Living module after the Living Master Library established a shared control plane for Press, Changelog, Guide, and Docs. Its design emerged from a missing truth category: none of the existing products owned <strong>future intent</strong> or measured declared planning against implementation reality.</p>
+<p>The explicit shipping-confirmation rule was chosen to prevent a common provenance failure: treating filename/keyword resemblance or implementation presence as proof that a feature was actually released to users.</p>
+<h3>9. Current State Assessment</h3>
+<p>Confirmed working in the local repository:</p>
+<ul><li>module CLI;</li><li>local JSON persistence;</li><li>source and Git evidence scanning;</li><li>evidence candidate reconciliation;</li><li>audit and build outputs;</li><li>secret redaction;</li><li>receipt verification;</li><li>Living Master Library integration;</li><li>local test suite.</li></ul>
+<p>Unknown without external evidence: production reliability under large organizations, multi-user contention, hosted deployment behavior, and real-world false-positive/false-negative rates across heterogeneous repositories.</p>
+<h3>10. Monetization Analysis</h3>
+<p>Potential models are strategic inference, not proven revenue:</p>
+<ul><li>paid developer CLI/pro edition;</li><li>team/hosted roadmap intelligence;</li><li>enterprise evidence adapters;</li><li>audit/compliance-oriented roadmap history;</li><li>integration into engineering-management suites;</li><li>inclusion as a premium LML module.</li></ul>
+<p>No numeric valuation is asserted. The repository contains implementation evidence but not transaction comps, revenue, retention, customer count, or public-market validation required for a grounded valuation.</p>
+<h3>11. Competitive Positioning</h3>
+<p>The defensible concept is not “another roadmap UI.” It is <strong>evidence-aware roadmap reconciliation with preserved uncertainty and decision history</strong>.</p>
+<p>Formal competitor claims require external market research. This repository alone cannot establish category uniqueness or comparative superiority.</p>
+<h3>12. Future Vision</h3>
+<p>High-fit future capabilities:</p>
+<ul><li>GitHub/GitLab pull-request and release adapters;</li><li>CI/CD and deployment-provider attestations;</li><li>LivingChangelog-native shipped evidence;</li><li>LivingDocs-native implementation surface evidence;</li><li>issue tracker synchronization;</li><li>richer dependency graph and critical path analysis;</li><li>semantic matching with deterministic evidence gates;</li><li>roadmap snapshots and longitudinal drift analytics;</li><li>team approval policies for authoritative transitions.</li></ul>
+<p>These are planned/speculative directions unless present in code at the time this guide is read.</p>
+<h3>13. Priority Roadmap</h3>
+<p>Near-term priorities:</p>
+<ol><li>measure reconciliation precision on real repositories;</li><li>add explicit shipping-proof adapters rather than broad textual heuristics;</li><li>add LML cross-module evidence contracts;</li><li>strengthen dependency/critical-path analysis;</li><li>add import/export adapters for existing roadmap systems;</li><li>retain the explicit human confirmation boundary for ambiguous shipping evidence.</li></ol>
+<h3>14. Risk Analysis</h3>
+<p>Technical risks: lexical matching false positives/negatives, evidence-source ambiguity, large-repository scan cost, incomplete deployment proof, stale local Git context.</p>
+<p>Operational risks: users treating candidate status as authoritative, putting sensitive information into descriptions, or assuming an audit score proves business value.</p>
+<p>Product risk: drifting into generic task management and losing the sharper roadmap-vs-reality thesis.</p>
+<h3>15. Preservation &amp; Continuity</h3>
+<p>Future operators should preserve these invariants:</p>
+<ol><li>Never silently promote fuzzy evidence to Shipped.</li><li>Preserve abandoned and superseded decisions instead of deleting history.</li><li>Keep evidence references inspectable.</li><li>Treat documentation as context, not production proof.</li><li>Keep secret material outside roadmap state.</li><li>Keep livingcore copies synchronized with canonical LML core.</li><li>Report uncertainty rather than manufacturing confidence.</li></ol>
+<p>Recovery sequence: install supported Node; run module tests; initialize/locate state; scan; reconcile; audit; inspect receipt integrity; review ship candidates manually before confirming.</p>
+<h3>16. Strategic Importance Ranking</h3>
+<p>Qualitative estimates only:</p>
+<ul><li>Ecosystem importance: high, because it adds future-intent truth to LML.</li><li>Replacement difficulty: moderate in v1.0.0; core data model is straightforward, but trustworthy evidence policies become harder as integrations expand.</li><li>Monetization potential: unknown without market validation.</li><li>Long-term importance: potentially high if it becomes the planning reconciliation layer connecting the other Living modules.</li></ul>
+<h3>17. Recommended Next Actions</h3>
+<ul><li>Exercise it against several real repositories.</li><li>Measure which evidence types create noisy candidates.</li><li>Add explicit deployment attestations before broadening automation.</li><li>Define a shared LML evidence interchange format.</li><li>Keep the generated Roadmap Drift report as a first-class product surface.</li><li>Avoid adding generic project-management features unless they strengthen provenance, drift, or continuity.</li></ul>
+<h3>18. Canonical Summary</h3>
+<p>LivingRoadmap gives the Living Master Library a missing temporal layer: <strong>declared future intent</strong>.</p>
+<p>The product is valuable when it can answer:</p>
+<blockquote><p>What did we say we were going to do? What did we actually do? What changed? What got forgotten? What shipped? What never should be called shipped yet? And why did the plan change?</p></blockquote>
+<p>Its central standard is simple: <strong>a roadmap should preserve intent, observe reality, and tell the truth about the distance between them.</strong></p>
+<h3>Final Truth Audit</h3>
+<p>Confirmed: all implementation details explicitly described as present above are represented in the v1.0.0 local source and test suite.</p>
+<p>Unknown/unverified: users, revenue, external adoption, public npm publication, production scale, competitive rank, and monetary valuation.</p>
+<p>Security note: no credentials, private keys, recovery material, or secret values belong in this guide or roadmap state.</p></div></section><section id="source-7" class="source"><div class="source-head"><div><span class="eyebrow">SOURCE 7</span><h2>Collective Master Library <small>v1.1.1</small></h2></div><div class="meta">379 words<br>archive</div></div><div class="provenance">collective-master-library/FOUNDERS-GUIDE.md<br><span class="hash">sha256 7b5c978cf6d241a02f7bdbe4060bdf00ee26504f22949126e6ca8788d1dbdbdc</span></div><div class="body"><h2>Collective Master Library — Founder’s Guide</h2>
+<h3>Canonical identity</h3>
+<p><strong>Name:</strong> Collective Master Library<br><strong>Abbreviation:</strong> CoML<br><strong>Version:</strong> 1.1.1<br><strong>Tagline:</strong> <em>The ecosystem remembers itself.</em></p>
+<h3>Purpose</h3>
+<p>Collective Master Library exists to solve a problem that appears only after a creator has multiple well-documented systems: local truth is preserved, but ecosystem truth becomes fragmented across separate canonical guides.</p>
+<p>CoML combines Founder’s Guides into one archival surface while preserving the source boundaries required to know where every statement came from. It is intentionally different from the Complete Master Library (CML), which represents engineered capabilities, and the Living Master Library (LML), which maintains truth surfaces over time.</p>
+<h3>Core doctrine</h3>
+<ol><li><strong>Local truth remains local.</strong> A module Founder’s Guide remains canonical for that module.</li><li><strong>Aggregation does not increase certainty.</strong> A speculative statement remains speculative in the collective archive.</li><li><strong>Source text is preserved losslessly.</strong> The archive does not silently rewrite a local canonical guide.</li><li><strong>Every source is fingerprinted.</strong> SHA-256 hashes make source drift observable.</li><li><strong>The collective layer is reproducible.</strong> A future operator can rebuild the archive from the same source set.</li><li><strong>Synthesis is derived, not canonical.</strong> Cross-project interpretation may sit above the lossless archive but may not replace it.</li></ol>
+<h3>Architecture</h3>
+<pre><code>LML Founder's Guide     ─┐
+Module Founder's Guides ─┼─&gt; Discovery -&gt; Fingerprint -&gt; Manifest ─┬─&gt; Lossless Markdown
+CoML Founder's Guide    ─┘                                         ├─&gt; Rendered HTML
+                                                                   ├─&gt; Source snapshots
+                                                                   └─&gt; Consistency report</code></pre>
+<h3>Current implementation status</h3>
+<p><strong>Confirmed in code:</strong> source discovery, deterministic ordering, SHA-256 fingerprinting, Markdown generation, HTML generation, source snapshots, machine-readable manifest, drift verification, archive integrity verification (1.0.1), self-inclusion of this guide, and a deterministic cross-guide consistency check (1.1.0; Edition and Canonical status lines checked since 1.1.1).</p>
+<p><strong>Not claimed:</strong> semantic deduplication, AI synthesis, acquisition valuation, external adoption, hosted service availability, public npm publication, or cross-library ingestion from SML/CML. Those are future possibilities, not present capabilities.</p>
+<h3>Relationship to the Master Libraries</h3>
+<ul><li><strong>SML — Strategic Master Library:</strong> philosophy and strategic doctrine.</li><li><strong>CML — Complete Master Library:</strong> engineered capabilities, repair, and harvesting machinery.</li><li><strong>LML — Living Master Library:</strong> continuously maintained truth surfaces.</li><li><strong>CoML — Collective Master Library:</strong> canonical multi-guide archive and ecosystem memory.</li></ul>
+<h3>Preservation rule</h3>
+<p>If CoML cannot show exactly which source guide and content hash contributed to an archive, that archive is not canonical.</p></div></section><section class="register" id="consistency"><span class="eyebrow">CONSISTENCY REPORT</span><p>Deterministic cross-check of versions and test counts stated across these guides, against each other and the catalog. History sections are excluded. 41 claims checked.</p><p><strong>No disagreements found.</strong></p></section></article></div></main></body></html>

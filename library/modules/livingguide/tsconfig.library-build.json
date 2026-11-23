@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "rewriteRelativeImportExtensions": true,
+    "declaration": true,
+    "sourceMap": false,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "adapters/**/*.ts",
+    "cli/**/*.ts",
+    "core/**/*.ts",
+    "engine/**/*.ts",
+    "presets/**/*.ts",
+    "node-shims.d.ts",
+    "test/**/*.ts"
+  ]
+}

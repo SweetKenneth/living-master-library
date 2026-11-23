@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "rewriteRelativeImportExtensions": true,
+    "declaration": false,
+    "sourceMap": false,
+    "allowImportingTsExtensions": true,
+    "noUnusedLocals": false
+  },
+  "include": [
+    "adapters/**/*.ts",
+    "core/**/*.ts",
+    "engine/**/*.ts",
+    "test/**/*.ts"
+  ]
+}

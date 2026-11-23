@@ -1,0 +1,19 @@
+{
+  "//": "Builds the npm package (dist/) so `npx livingchangelog` works: Node will not strip TypeScript inside node_modules. The runtime still has zero dependencies.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "rewriteRelativeImportExtensions": true,
+    "declaration": true,
+    "sourceMap": false,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "adapters/**/*.ts",
+    "cli/**/*.ts",
+    "core/**/*.ts",
+    "engine/**/*.ts"
+  ]
+}

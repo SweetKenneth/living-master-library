@@ -1,0 +1,10 @@
+{
+  "project": {
+    "name": "[ENTER PROJECT NAME HERE]",
+    "description": "[ENTER ONE-LINE PROJECT DESCRIPTION HERE]",
+    "repository": "",
+    "docsBaseUrl": ""
+  },
+  "preset": "developer",
+  "voice": "Precise, direct, example-driven, implementation-first. Preserve uncertainty and never document behavior that cannot be supported by evidence."
+}

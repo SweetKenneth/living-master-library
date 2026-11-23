@@ -1,0 +1,27 @@
+{
+  "//": "Type-check only (the engine runs as plain .ts via Node's type stripping, Deno, Bun or a bundler). Run: npx -p typescript tsc -p tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2023",
+      "DOM"
+    ],
+    "types": []
+  },
+  "include": [
+    "adapters/**/*.ts",
+    "core/**/*.ts",
+    "engine/**/*.ts",
+    "examples/**/*.ts",
+    "test/**/*.ts"
+  ]
+}

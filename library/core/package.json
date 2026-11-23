@@ -1,0 +1,27 @@
+{
+  "name": "livingcore",
+  "version": "1.0.0",
+  "description": "The shared engine under LivingPress and LivingChangelog: deterministic choices, model failover, circuit breaker, hash-chained receipts, tick lease, rate gate and safe Markdown. Zero dependencies.",
+  "license": "MIT",
+  "author": "Kenneth E. Sweet Jr. (https://kesjr.com)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types test/core.test.ts",
+    "typecheck": "npx -y -p typescript@5.9 tsc -p tsconfig.json",
+    "sync": "node scripts/sync.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/living.git",
+    "directory": "core"
+  },
+  "homepage": "https://github.com/SweetKenneth/living/tree/main/core#readme",
+  "bugs": {
+    "url": "https://github.com/SweetKenneth/living/issues"
+  }
+}

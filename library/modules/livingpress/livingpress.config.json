@@ -1,0 +1,107 @@
+{
+  "site": {
+    "name": "[ENTER SITE NAME HERE]",
+    "url": "https://[ENTER-DOMAIN-HERE]",
+    "blogName": "[ENTER BLOG NAME HERE]",
+    "blogPath": "/blog",
+    "tagline": "[ENTER ONE-LINE BLOG TAGLINE HERE]"
+  },
+  "audience": "[ENTER WHO THE READER IS — e.g. 'independent bakery owners who are short on time']",
+  "voice": "Plain, concrete, declarative. Short sentences carry the weight. No hype, no emoji, no listicles pretending to be arguments. Name the problem precisely, then show what good looks like. Concede what is genuinely hard.",
+  "houseFacts": "[ENTER HOUSE FACTS HERE]\n- What the business/site does, in plain words.\n- Prices, hours, locations, guarantees — only what is true today.\n- Products or services by their real names.",
+  "neverClaim": [
+    "Any number, benchmark, customer, testimonial or award not stated in the house facts",
+    "Features or services that do not exist yet"
+  ],
+  "retiredWords": [
+    {
+      "pattern": "\\brevolutionary\\b",
+      "replaceWith": "state the mechanism instead"
+    },
+    {
+      "pattern": "\\bseamless(ly)?\\b",
+      "replaceWith": "say what actually happens"
+    },
+    {
+      "pattern": "\\bgame[- ]changer\\b",
+      "replaceWith": "state the mechanism instead"
+    },
+    {
+      "pattern": "\\bcutting[- ]edge\\b",
+      "replaceWith": "state the mechanism instead"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "topic-a",
+      "label": "[ENTER CONTENT TOPIC A HERE]",
+      "thesis": "[ENTER THE ARGUMENT THIS TOPIC MAKES]",
+      "keywords": [
+        "[keyword]"
+      ]
+    },
+    {
+      "id": "topic-b",
+      "label": "[ENTER CONTENT TOPIC B HERE]",
+      "thesis": "[ENTER THE ARGUMENT THIS TOPIC MAKES]",
+      "keywords": [
+        "[keyword]"
+      ]
+    },
+    {
+      "id": "topic-c",
+      "label": "[ENTER CONTENT TOPIC C HERE]",
+      "thesis": "[ENTER THE ARGUMENT THIS TOPIC MAKES]",
+      "keywords": [
+        "[keyword]"
+      ]
+    }
+  ],
+  "painPoints": [
+    "[ENTER A REAL READER PROBLEM HERE]",
+    "[ENTER ANOTHER READER PROBLEM HERE]"
+  ],
+  "siteLinks": [
+    {
+      "path": "/",
+      "label": "Home",
+      "note": "start here"
+    },
+    {
+      "path": "/[ENTER-PAGE]",
+      "label": "[ENTER PAGE NAME]",
+      "note": "[when to link it]"
+    }
+  ],
+  "advocacyEvery": 3,
+  "wordTargets": {
+    "pillar": {
+      "min": 1400,
+      "max": 1600
+    },
+    "support": {
+      "min": 700,
+      "max": 900
+    }
+  },
+  "qualityFloor": {
+    "reader": 70,
+    "skeptic": 75,
+    "fitness": 0.7
+  },
+  "cadence": {
+    "minHoursBetweenPosts": 20,
+    "auditCooldownHours": 72,
+    "auditEveryNthTick": 3
+  },
+  "breaker": {
+    "maxConsecutiveFailures": 3,
+    "cooldownMinutes": 360,
+    "heartbeatStaleHours": 48
+  },
+  "defense": {
+    "publicReadsPerMinute": 120,
+    "adminCallsPerMinute": 10
+  },
+  "seed": "livingpress"
+}

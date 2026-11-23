@@ -1,0 +1,12 @@
+export * from "./ports.ts";
+export * from "./config.ts";
+export { runBuild, runAudit, runVerification, type Deps, type BuildResult } from "./engine.ts";
+export { canonicalMarkdown, canonicalHtml, slugify } from "./render.ts";
+export { deterministicClaimAudit, deterministicManualAudit, guideAuditMarkdown, scoreAudit } from "./audit.ts";
+export { deterministicVerification, verificationMarkdown } from "./verification.ts";
+export { sanitizeClaim, claimLedger, obviousContradictions, sourceSupportsQuote } from "./truth.ts";
+export { syncSources, artifactBlock, artifactInventory } from "./source.ts";
+export { verifyChain, verifyStoredChain, sealRun, GENESIS } from "./receipts.ts";
+export { Breaker } from "./breaker.ts";
+export { Nexus, LadderExhausted } from "./nexus.ts";
+export { classifyAgent, countsAsHuman, gate, memoryBuckets } from "./defense.ts";
