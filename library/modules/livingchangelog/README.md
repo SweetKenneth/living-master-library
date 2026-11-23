@@ -119,7 +119,7 @@ LivingChangelog watches release evidence, decides whether a change deserves a pu
 It is a sibling of [LivingPress](https://github.com/SweetKenneth/living/tree/main/modules/livingpress), the autonomous blog engine. Both can live in the same project and the same Postgres database: LivingChangelog uses its own tables, functions, API namespace, config, secrets, and state keys.
 
 - **Live example:** [ENTER YOUR CHANGELOG NAME HERE](https://[ENTER-YOUR-CHANGELOG-URL-HERE])
-- **Built by:** [Kenneth E. Sweet Jr.](https://kesjr.com). Solo founder building deterministic, logic-based systems whose outputs can be trusted and inherited.
+- **Built by:** [SweetKenneth](https://kesjr.com). Solo founder building deterministic, logic-based systems whose outputs can be trusted and inherited.
 - **Need it installed for you?** [ENTER HOW PEOPLE HIRE YOU HERE, e.g. a link to a booking page or an email address]
 
 ### Changelogs running LivingChangelog
@@ -359,4 +359,4 @@ If nothing meaningful and proven shipped, the correct changelog entry is no chan
 MIT. See `LICENSE`.
 
 ---
-<sub>LivingChangelog is maintained by [Kenneth E. Sweet Jr.](https://kesjr.com).</sub>
+<sub>LivingChangelog is maintained by [SweetKenneth](https://kesjr.com).</sub>

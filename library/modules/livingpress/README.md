@@ -8,7 +8,7 @@
 Most AI writing tools measure success in posts per week. LivingPress measures it in posts you'd defend. Every draft has to get past a code-only safety gate and two adversarial reviewers before it can publish, and most days the honest answer is "nothing worth saying," so it says nothing and writes down why. When your facts change, it goes back to its old posts, fixes them, and adds a public correction note.
 
 - **Live example:** [ENTER YOUR BLOG NAME HERE](https://[ENTER-YOUR-BLOG-URL-HERE])
-- **Built by:** [Kenneth E. Sweet Jr.](https://kesjr.com). Solo founder building deterministic, logic-based systems whose outputs can be trusted and inherited.
+- **Built by:** [SweetKenneth](https://kesjr.com). Solo founder building deterministic, logic-based systems whose outputs can be trusted and inherited.
 - **Need it installed for you?** [ENTER HOW PEOPLE HIRE YOU HERE, e.g. a link to a booking page or an email address]
 
 ### Why it's different
@@ -141,4 +141,4 @@ MIT. See [LICENSE](LICENSE).
 <!-- REPLACE: if you choose AGPL + commercial licensing instead, change this section, LICENSE and package.json together. -->
 
 ---
-<sub>LivingPress is maintained by [Kenneth E. Sweet Jr.](https://kesjr.com).</sub>
+<sub>LivingPress is maintained by [SweetKenneth](https://kesjr.com).</sub>

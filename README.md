@@ -80,4 +80,4 @@ living audit      # every module's self-test
 
 ## License
 
-[MIT](LICENSE) © 2026 Kenneth E. Sweet Jr. Each bundled module retains its own MIT license.
+[MIT](LICENSE) © 2026 SweetKenneth. Each bundled module retains its own MIT license.

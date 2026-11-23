@@ -203,7 +203,7 @@ function Index() {
 
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-10 text-sm text-muted-foreground">
-          <p>© 2026 Kenneth E. Sweet Jr. · Released under the MIT License.</p>
+          <p>© 2026 SweetKenneth · Released under the MIT License.</p>
           <div className="flex gap-6">
             <a href={REPO} className="hover:text-foreground">GitHub</a>
             <a href={ZIP} download className="hover:text-foreground">Download</a>

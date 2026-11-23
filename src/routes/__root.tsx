@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Living Master Library" },
       { name: "description", content: "Open-source systems that keep important things true over time." },
-      { name: "author", content: "Kenneth E. Sweet Jr." },
+      { name: "author", content: "SweetKenneth" },
       { property: "og:title", content: "Living Master Library" },
       { property: "og:description", content: "Open-source systems that keep important things true over time." },
       { property: "og:type", content: "website" },
