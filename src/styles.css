@@ -169,3 +169,22 @@
 @utility pulse-dot {
   animation: pulse-ring 2.4s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
 }
+
+@keyframes heart-pulse {
+  0%, 100% { transform: scale(1); }
+  15% { transform: scale(1.25); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.15); }
+  60% { transform: scale(1); }
+}
+
+@utility heart-pulse {
+  animation: heart-pulse 1.8s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heart-pulse {
+    animation: none;
+  }
+}

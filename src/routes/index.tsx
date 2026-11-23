@@ -209,6 +209,10 @@ function Index() {
             <a href={ZIP} download className="hover:text-foreground">Download</a>
             <a href="https://kesjr.com" className="hover:text-foreground">kesjr.com</a>
           </div>
+          <p className="w-full border-t border-border pt-6 text-center">
+            Made by humans who care <span className="heart-pulse inline-block" aria-label="love">❤️</span>
+            {" "}| Another KESJr Collective Project
+          </p>
         </div>
       </footer>
     </div>
